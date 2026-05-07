@@ -1,0 +1,2639 @@
+[
+  {
+    "id": 0,
+    "question": "What is Mary Horowitz's job?",
+    "prediction": "Mary Horowitz's job is the crossword constructor for the Atlanta Citizen.",
+    "gold_answers": [
+      "She is a crossword writer for the Sacramento Herald.",
+      "She is a crossword puzzle writer."
+    ]
+  },
+  {
+    "id": 1,
+    "question": "Who is Mary's blind date, and what is his job?",
+    "prediction": "The script does not provide information about Mary's blind date or his job.",
+    "gold_answers": [
+      "Steve Miller, a cameraman.",
+      "Steve Miller, he is a cameraman"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is Steve's excuse to not see Mary?",
+    "prediction": "Steve does not give a specific excuse but rather tries to avoid the encounter with Mary by looking for a place to hide, indicating his anxiety and reluctance to see her.",
+    "gold_answers": [
+      "He claims he is needed to cover a story out of town.",
+      "Fake a phone call about covering a story out of town."
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Why did Mary get fired?",
+    "prediction": "The scripts do not provide information about Mary getting fired.",
+    "gold_answers": [
+      "She created a crossword entirely about Steve.",
+      "She created a crossword titled \"All About Steve\"."
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Who does Mary cross the country with?",
+    "prediction": "The script does not provide information about Mary crossing the country with a specific group.",
+    "gold_answers": [
+      "Norm, Elizabeth, and Howard.",
+      "Elizabeth and Howard"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Who is trapped in the mine collapse?",
+    "prediction": "Mary, Steve's fiancée, and hearing impaired children are trapped in the mine collapse.",
+    "gold_answers": [
+      "Deaf children.",
+      "deaf children"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Who rescues the one remaining deaf child?",
+    "prediction": "Mary Horowitz rescues the one remaining deaf child.",
+    "gold_answers": [
+      "Mary, after falling in.",
+      "Steve"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Who gets the credit for saving the child?",
+    "prediction": "The texts do not provide information about who gets the credit for saving the child.",
+    "gold_answers": [
+      "Hartman Hughes.",
+      "Hartman"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Who fell into the mine to save mary?",
+    "prediction": "Mary Horowitz fell into the mine to save the child, not the other way around.",
+    "gold_answers": [
+      "Hartman Hughes, a tv reporter.",
+      "Hartman"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What can Mary not stop talking about?",
+    "prediction": "Mary cannot stop talking about her job at the newspaper and the stress and demands it brings.",
+    "gold_answers": [
+      "Vocabulary.",
+      "Vocabulary"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Whom does Mary Horowitz believe is her only friend?",
+    "prediction": "The old lady from Mary's second grade is the most likely person Mary believes is her only friend, based on the script's context.",
+    "gold_answers": [
+      "Pet hamster",
+      "a hamster "
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Mary Horowitz's parent set her up on a blind date with whom?",
+    "prediction": "Mary Horowitz's parents set her up on a blind date with Steve.",
+    "gold_answers": [
+      "Steve Miller",
+      "Steve"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Steve Miller is a camerarman for what company?",
+    "prediction": "Steve Miller is a cameraman for CNN.",
+    "gold_answers": [
+      "CCN",
+      "CNN"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Howard does what with apples he carves to look like celebrities?",
+    "prediction": "Howard carves apples to look like celebrities and sells them on his website.",
+    "gold_answers": [
+      "sells them",
+      "He sells them"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "What does Mary Horowitz do for a living?",
+    "prediction": "Mary Horowitz works as the crossword constructor for the Atlanta Citizen.",
+    "gold_answers": [
+      "Creates crosswords",
+      "Crossword puzzle writer"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Why is Mary Horowitz fired from her job?",
+    "prediction": "The script does not indicate that Mary Horowitz is fired from her job.",
+    "gold_answers": [
+      "For creating a crossword tittled \"All About Steve\"",
+      "Mary was fired because she created a crossword title   about Steve"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "What is the name of the CCN reporter who encourages Mary Horowitz to pursue Steve Miller?",
+    "prediction": "There is no CNN reporter in the provided script who encourages Mary Horowitz to pursue Steve Miller.",
+    "gold_answers": [
+      "Hartman Hughes",
+      "Hartman Hughes"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "What does Mary Horowitz posses that Hartman Hughes wants to use?",
+    "prediction": "The script does not specify what Hartman Hughes wants to use from Mary Horowitz.",
+    "gold_answers": [
+      "Encyclopedic knowledge",
+      "Her encyclopedic knowledge."
+    ]
+  },
+  {
+    "id": 18,
+    "question": "What aliment do the children trapped inside the mine suffer from?",
+    "prediction": "The passage does not explicitly state that the children trapped inside the mine suffer from any specific aliment. It mentions potential injuries and the dark, coal-dusted environment but does not specify black lung disease as an ailment of the trapped children.",
+    "gold_answers": [
+      "Deafness",
+      "Deaf"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Who gets the credit for saving the last child in the mine?",
+    "prediction": "Mary Horowitz gets the credit for saving the last child in the mine.",
+    "gold_answers": [
+      "Hartman Huges",
+      "Hartman"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Who does Mary consider to be her only friend at the beginning of the story?",
+    "prediction": "The text does not provide information about who Mary considers to be her only friend at the beginning of the story.",
+    "gold_answers": [
+      "Her pet hamster",
+      "Her pet hamseter."
+    ]
+  },
+  {
+    "id": 21,
+    "question": "What is Steve Miller's profession?",
+    "prediction": "Steve Miller's profession is a news anchor or journalist for CNN.",
+    "gold_answers": [
+      "He's a cameraman at CCN",
+      "News reporter"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "What happens after a failed intimate moment between Steve and Mary?",
+    "prediction": "After the failed intimate moment, Mary checks the fabric tag on Steve's jacket and points out that it is made of nylon, while her own is made of polyester, leading to a discussion about the improbability of both of them wearing blue and both materials being synthetic.",
+    "gold_answers": [
+      "Steve fakes a phone call",
+      "He fakes a phone call and says he has to cover a news story out of town."
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Why does Mary get fired?",
+    "prediction": "Mary likely gets fired because she is dismissed from her job as a crossword constructor for the Atlanta Citizen, though the exact reason is not clearly stated in the provided script excerpts.",
+    "gold_answers": [
+      "Because she writes a crossword poem entitled \"All About Steve\"",
+      "She makes a crossword called \"All About Steve\""
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Who at CCN encourages Mary to pursue Steve?",
+    "prediction": "Hartman.",
+    "gold_answers": [
+      "Hartman Hughes",
+      "Hartman Hughes"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "What does Hartman Hughes hope to use Mary's knowledge for?",
+    "prediction": "Based on the script, Hartman Hughes hopes to use Mary's knowledge and presence for media or public relations benefit, as he is involved in storytelling and getting information from Steve.",
+    "gold_answers": [
+      "Information for his reports so he can get a promotion to become anchor",
+      "To get a promotion to news anchor"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Why does the bus driver abandon Mary?",
+    "prediction": "The bus driver does not abandon Mary; she asks the bus driver about the next bus to Dallas, but he does not respond and continues driving.",
+    "gold_answers": [
+      "Because she annoys the passengers too much.",
+      "Mary was abandon because she was annoy"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "What does Mary do after she is abandoned by the bus?",
+    "prediction": "After being abandoned by the bus, Mary runs into the parking lot, realizes the bus is gone, breathes into her paper bag to calm down, and then asks a truck driver about the next bus to Dallas.",
+    "gold_answers": [
+      "hitchhikes with a trucker named Norm",
+      "She hitchhikes."
+    ]
+  },
+  {
+    "id": 28,
+    "question": "What happens to Mary when she arrives to the scene of the collapsed mine?",
+    "prediction": "Mary drops right into the abandoned mine.",
+    "gold_answers": [
+      "She falls into the mineshaft",
+      "Accidentally fell into the mine"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Which two people lay a guilt trip on Hartman for getting Amy into the mine mess?",
+    "prediction": "The information provided does not contain details about Hartman laying a guilt trip on Amy or anyone else for a mine mess scenario.",
+    "gold_answers": [
+      "Elizabeth and Howard",
+      "Elizabeth and Howard"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "What is Hi's full name?",
+    "prediction": "H. I. McDunnough.",
+    "gold_answers": [
+      "Herbert I. McDunnough",
+      "Herbert I. McDunnough"
+    ]
+  },
+  {
+    "id": 31,
+    "question": "What does Ed do for a living at the beginning of the story?",
+    "prediction": "The script does not provide information about Ed's occupation.",
+    "gold_answers": [
+      "She is a police officer.",
+      "police officer"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Why can't Hi and Ed have children of their own?",
+    "prediction": "Glen has a problem with his semen, which is why Hi and Ed can't have children of their own.",
+    "gold_answers": [
+      "Ed is infertile.",
+      "Ed is infertile."
+    ]
+  },
+  {
+    "id": 33,
+    "question": "What is the name of the group of babies that Ed and Hi learn about?",
+    "prediction": "The name of the group of babies that Ed and Hi learn about is Harry, Barry, Larry, Garry, and Nathan Jr.",
+    "gold_answers": [
+      "The Arizona Quints.",
+      "The Arizona Quints."
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Which baby does Ed and Hi kidnap?",
+    "prediction": "Ed and Hi are trying to retrieve their own baby, Nathan Jr.",
+    "gold_answers": [
+      "Nathan Junior",
+      "Nathan Junior"
+    ]
+  },
+  {
+    "id": 35,
+    "question": "What are the names of Hi's former cellmates?",
+    "prediction": "The names of Hi's former cellmates are not provided in the given script excerpts.",
+    "gold_answers": [
+      "Gale and Evelle Snoats",
+      "Evelle and Gale"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Why does Hi assault his supervisor?",
+    "prediction": "The scripts do not provide information about Hi assaulting his supervisor.",
+    "gold_answers": [
+      "Because he wants to swap wives.",
+      "He proposed a wife swap to Hi."
+    ]
+  },
+  {
+    "id": 37,
+    "question": "What do Gale and Evelle leave behind while robbing a bank?",
+    "prediction": "Based on the script, there is no mention of Gale and Evelle leaving anything behind while robbing the bank. They are focused on the robbery and do not appear to abandon any items.",
+    "gold_answers": [
+      "The baby, Nathan Junior.",
+      "Junior"
+    ]
+  },
+  {
+    "id": 38,
+    "question": "Who offers to find Nathan Junior for $50,000?",
+    "prediction": "The text does not provide information about who offers to find Nathan Junior for $50,000.",
+    "gold_answers": [
+      "Leonard Smalls",
+      "Leonard Smalls."
+    ]
+  },
+  {
+    "id": 39,
+    "question": "What does Nathan Sr. tell Ed and Hi to do before splitting up?",
+    "prediction": "Nathan Sr. tells Ed and Hi to go to a convenience store to get diapers for Nathan Jr. before splitting up.",
+    "gold_answers": [
+      "Sleep on it.",
+      "gives them advice"
+    ]
+  },
+  {
+    "id": 40,
+    "question": "How did Hi and Ed meet?",
+    "prediction": "Hi and Ed met in the county lock-up in Tempe, Arizona.",
+    "gold_answers": [
+      "After Ed took mugshots of Hi.",
+      "They met when Ed took Hi's mugshot."
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Where does Hi get a job at?",
+    "prediction": "Hi gets a job at a place where a cashier works, such as a store.",
+    "gold_answers": [
+      "In a machine shop.",
+      "a machine shop"
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Why can't Ed and Hi have children?",
+    "prediction": "Ed has a problem with his semen, suggesting he has fertility issues.",
+    "gold_answers": [
+      "Ed is infertile.",
+      "Hi is infertile."
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Why does Hi assault Glen?",
+    "prediction": "The script does not indicate that Hi assaults Glen. The confrontation is characterized by Hi's aggressive approach and demand, but no physical assault is described.",
+    "gold_answers": [
+      "Glen proposed swapping wives.",
+      "he proposes a wife swap"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Why did Ed leave Hi at the convenience store?",
+    "prediction": "The passages do not explicitly state that Ed left Hi at a convenience store. The script indicates that Ed is upset and emotional, but there is no information provided about him leaving Hi at a store.",
+    "gold_answers": [
+      "She sees him robbing the store.",
+      "Hi starts to rob the convenience store."
+    ]
+  },
+  {
+    "id": 45,
+    "question": "How does Glen blackmail Hi?",
+    "prediction": "Glen blackmails Hi by threatening to reveal the real name of Hi's child, which is \"junior,\" and suggesting that this name is not \"Hi Jr.\" or \"Ed Jr.\"",
+    "gold_answers": [
+      "Glen would go to the police unless Hi would give Glen the baby.",
+      "he threatens to turn him over to the police unless him and dot get custody of junior"
+    ]
+  },
+  {
+    "id": 46,
+    "question": "What do Gale and Evelle after overhearding Glen blackmail Hi?",
+    "prediction": "The script does not provide information about Gale and Evelle overhearing Glen blackmail Hi.",
+    "gold_answers": [
+      "They tie Hi to a chair and take Junior.",
+      "they turn on Hi"
+    ]
+  },
+  {
+    "id": 47,
+    "question": "What does Ed suggest to Hi as they are going to retrieve Junior?",
+    "prediction": "The script does not provide information about what Ed suggests to Hi as they are going to retrieve Junior.",
+    "gold_answers": [
+      "That they should end their marriage.",
+      "They should end their marriage after getting the boy."
+    ]
+  },
+  {
+    "id": 48,
+    "question": "How does Smalls die?",
+    "prediction": "The script does not provide information on how Smalls dies.",
+    "gold_answers": [
+      "He is blown up by a grenade.",
+      "explodes"
+    ]
+  },
+  {
+    "id": 49,
+    "question": "What does Nathan Sr. advise Hi and Ed to do when he learns of them splitting up?",
+    "prediction": "Nathan Sr. does not advise Hi and Ed to do anything; instead, he expresses his own feelings and intentions regarding the situation.",
+    "gold_answers": [
+      "He tells them to sleep on it.",
+      "He tells them to sleep on it."
+    ]
+  },
+  {
+    "id": 50,
+    "question": "How do Hi and Ed meet?",
+    "prediction": "The script does not provide information on how Hi and Ed meet.",
+    "gold_answers": [
+      "She is taking his mug shot.",
+      "They meet after Ed takes Hi's mugshot."
+    ]
+  },
+  {
+    "id": 51,
+    "question": "Why can't the couple have kids?",
+    "prediction": "The couple in \"Raising Arizona\" couldn't have kids because of biological factors and societal prejudices.",
+    "gold_answers": [
+      "Ed is infertile.",
+      "Ed's not fertile"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Why can't the couple adopt?",
+    "prediction": "There is no information provided in the given scripts about a couple who cannot adopt.",
+    "gold_answers": [
+      "Hi has a record.",
+      "ed is sterile"
+    ]
+  },
+  {
+    "id": 53,
+    "question": "Who does Hi assault?",
+    "prediction": "Lenny",
+    "gold_answers": [
+      "His boss.",
+      "Glenn"
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Who visits Hi and Ed?",
+    "prediction": "The script does not provide information about who visits Hi and Ed.",
+    "gold_answers": [
+      "Hi's cell buddies.",
+      "Gale and Evelle"
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Who takes the baby?",
+    "prediction": "Hi (Hiro) and Ed take the baby.",
+    "gold_answers": [
+      "Gale and Evelle.",
+      "Ed."
+    ]
+  },
+  {
+    "id": 56,
+    "question": "Who is killed by the grenade?",
+    "prediction": "Lenny is killed by the grenade.",
+    "gold_answers": [
+      "Smalls.",
+      "Smalls."
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Where do Hi and Ed bring the baby?",
+    "prediction": "The script does not specify where Hi and Ed bring the baby.",
+    "gold_answers": [
+      "To the Arizona home.",
+      "back home"
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Who confronts the couple?",
+    "prediction": "The police and detectives confront the couple.",
+    "gold_answers": [
+      "Nathan, Sr.",
+      "Nathan Sr."
+    ]
+  },
+  {
+    "id": 59,
+    "question": "What tragedy was discovered?",
+    "prediction": "The tragedy discovered was the drowning of Dain the trader.",
+    "gold_answers": [
+      "Four dead bodies were found of the Clutter family. ",
+      "the killing of clutter family members"
+    ]
+  },
+  {
+    "id": 60,
+    "question": "Why does Truman Capote travel to Kansas?",
+    "prediction": "Truman Capote travels to Kansas to research and write about a family murder that took place in a farmhouse, interviewing all those involved, including the killers, to explore the contrast between the quiet conservative life and the criminally violent underbelly of society.",
+    "gold_answers": [
+      "Capote plans on interviewing those that were involved with the Clutter family. ",
+      "to document the event after first reading about it in the New York Times"
+    ]
+  },
+  {
+    "id": 61,
+    "question": "What are Capote's intentions while in Kansas?",
+    "prediction": "Capote's intentions while in Kansas are to interview everyone affected by the Clutter family murders, including the killers, to understand and document the convergence of the quiet conservative life and the criminally violent underbelly on that bloody night.",
+    "gold_answers": [
+      "Capote plans on writing a full-length book.",
+      "document what happened"
+    ]
+  },
+  {
+    "id": 62,
+    "question": "What does Capote want from Smith?",
+    "prediction": "Capote wants to gather information and conduct interviews with Perry Smith to understand his perspective and background for his book \"In Cold Blood.\"",
+    "gold_answers": [
+      "Capote wants Smith to give details and information about the killings to the Clutter family. ",
+      "details of the killings"
+    ]
+  },
+  {
+    "id": 63,
+    "question": "What does Capote see in himself?",
+    "prediction": "Capote sees Perry's drawings and notebooks as valuable resources for his writing, recognizing Perry's talent and the depth of his life story.",
+    "gold_answers": [
+      "Capote sees selfishness in his own actions. ",
+      "Callousness and selfishness"
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Who are responsible for the killings of the Clutter family?",
+    "prediction": "The script does not provide the names of the killers of the Clutter family; it only refers to them as \"two men\" who broke into the Clutter's farmhouse and murdered the family.",
+    "gold_answers": [
+      "The two men are Perry Smith and Richard Hickock. ",
+      "Smith and HIckock"
+    ]
+  },
+  {
+    "id": 65,
+    "question": "What leads Capote to become so attached to one of the accused?",
+    "prediction": "Capote's attachment to Perry Smith likely stems from Perry's denial of premeditation and his claim that the murders were not intended, which highlights the human aspects of the crime and resonates with Capote's interest in human stories and empathy.",
+    "gold_answers": [
+      "The life that Smith led and his impressive sincerity. ",
+      "he was touched by smith's life story"
+    ]
+  },
+  {
+    "id": 66,
+    "question": "Why is Capote unable to complete his work?",
+    "prediction": "The script does not provide a specific reason for why Capote is unable to complete his work. It only notes that he never finished another book after \"In Cold Blood.\"",
+    "gold_answers": [
+      "He is unable to compete the book because the court case has not been resolved. ",
+      "he doesn't know the details of the murder"
+    ]
+  },
+  {
+    "id": 67,
+    "question": "How does Capote react to his friend's success?",
+    "prediction": "Capote reacts to his friend's success with congratulations and a bit of playful teasing, indicating genuine happiness and support.",
+    "gold_answers": [
+      "Capote finds himself drinking through his own misery. ",
+      "He was too caught up in his own misery to celebrate."
+    ]
+  },
+  {
+    "id": 68,
+    "question": "What is pointed out in the epilogue?",
+    "prediction": "The epilogue does not point out a specific event but rather continues the narrative, showing the resolution of a conflict and the departure of Mrs. Almayer.",
+    "gold_answers": [
+      "Capote becomes the most famous writer in the country and does not complete another book. ",
+      "that Capote was a famous writer in America"
+    ]
+  },
+  {
+    "id": 69,
+    "question": "What made Capote contact Shawn?",
+    "prediction": "Capote contacted Shawn because Nelle, his secretary, had received a telegram and needed Shawn to convey its contents to Capote, as Capote was not willing to look at it himself.",
+    "gold_answers": [
+      "he intended to document the Clutter family story",
+      "His intent to expand the story into a full length book."
+    ]
+  },
+  {
+    "id": 70,
+    "question": "Who was the lead detective on the Clutter case?",
+    "prediction": "The lead detective on the Clutter case is not explicitly named, but it can be inferred that Detective #1 and Detective #2 are involved in the investigation.",
+    "gold_answers": [
+      "Alvin Dewey",
+      "capote"
+    ]
+  },
+  {
+    "id": 71,
+    "question": "How was Capote able to continue seeing Smith and Hickock?",
+    "prediction": "Capote was able to continue seeing Smith and Hickock because he was working on a story about their case and needed to hear their accounts.",
+    "gold_answers": [
+      "he bribed the warden",
+      "bribed the warden"
+    ]
+  },
+  {
+    "id": 72,
+    "question": "Where did the Clutter family live?",
+    "prediction": "The Clutter family lived in a farmhouse in Western Kansas.",
+    "gold_answers": [
+      "in Kansas",
+      "a Kansas farm"
+    ]
+  },
+  {
+    "id": 73,
+    "question": "Why is Capote frustrated with Smith?",
+    "prediction": "Capote is frustrated because he was not informed about Perry Smith's refusal to eat for a month, which is a significant development in the case.",
+    "gold_answers": [
+      "Smith won't describe what happened during the night of the murders",
+      "Because Smith will not tell him exactly what happened at the time of the murders"
+    ]
+  },
+  {
+    "id": 74,
+    "question": "When does Capote decide to go see Smith one last time?",
+    "prediction": "The script does not provide a specific time when Capote decides to go see Smith one last time.",
+    "gold_answers": [
+      "after Smith sends a telegram to Harper Lee",
+      "after Smith telegrams Lee"
+    ]
+  },
+  {
+    "id": 75,
+    "question": "What was the result of Smith and Hickock's final appeal?",
+    "prediction": "The script indicates that the Supreme Court rejected an appeal, but it does not explicitly state the final result of this appeal.",
+    "gold_answers": [
+      "it was rejected",
+      "rejected"
+    ]
+  },
+  {
+    "id": 76,
+    "question": "Where does Capote see Hickcok for the last time?",
+    "prediction": "Capote sees Hickock in a prison cell for the last time.",
+    "gold_answers": [
+      "at his execution",
+      "At Hickcok's execution."
+    ]
+  },
+  {
+    "id": 77,
+    "question": "Which reason was given for Capote's visit to Spain?",
+    "prediction": "To go away to write.",
+    "gold_answers": [
+      "he was writing the first 3 parts of the book",
+      "He was going to write the first three parts of his book"
+    ]
+  },
+  {
+    "id": 78,
+    "question": "What happened to the Clutter family?",
+    "prediction": "The Clutter family, particularly Mr. Clutter and his son, were victims of a violent crime, as evidenced by the descriptions of the funeral and the basement scene where Mr. Clutter was found bound and injured.",
+    "gold_answers": [
+      "They were found murdered.",
+      "Killed on their farm in Kansas"
+    ]
+  },
+  {
+    "id": 79,
+    "question": "Where were the Clutters found?",
+    "prediction": "The Clutters were found in their basement at home.",
+    "gold_answers": [
+      "On their farm.",
+      "on their Kansas farm"
+    ]
+  },
+  {
+    "id": 80,
+    "question": "Who plans to document the Clutter tragedy?",
+    "prediction": "The journalists plan to document the Clutter tragedy.",
+    "gold_answers": [
+      "Truman Capote.",
+      "Truman Capote,"
+    ]
+  },
+  {
+    "id": 81,
+    "question": "Where did the Clutters live?",
+    "prediction": "The Clutters lived on a farm in Western Kansas.",
+    "gold_answers": [
+      "In Kansas.",
+      "a Kansas farm"
+    ]
+  },
+  {
+    "id": 82,
+    "question": "Who travels with Capote?",
+    "prediction": "The script does not provide information about who travels with Capote.",
+    "gold_answers": [
+      "His friend Nelle Harper Lee.",
+      "Nelle Harper Lee"
+    ]
+  },
+  {
+    "id": 83,
+    "question": "Who is a fan of Capote?",
+    "prediction": "Shawn is a fan of Capote, as evidenced by his excitement about the book and his willingness to support its publication.",
+    "gold_answers": [
+      "Marie.",
+      "Marie Dewey"
+    ]
+  },
+  {
+    "id": 84,
+    "question": "What does Marie's husband do?",
+    "prediction": "The provided information does not specify what Marie's husband does.",
+    "gold_answers": [
+      "He is a detective.",
+      "Kansas bureau of investigation"
+    ]
+  },
+  {
+    "id": 85,
+    "question": "Who is the main suspect in the case?",
+    "prediction": "John LeTour.",
+    "gold_answers": [
+      "Perry Smith.",
+      "Smith"
+    ]
+  },
+  {
+    "id": 86,
+    "question": "What has Lee written over time?",
+    "prediction": "The passage does not provide information on what Lee has written over time. It focuses on Truman Capote's writing and Lee's review of it.",
+    "gold_answers": [
+      "To Kill a Mocking Bird.",
+      "\"To Kill A Mockingbird\"."
+    ]
+  },
+  {
+    "id": 87,
+    "question": "What was the name of Capote's final work?",
+    "prediction": "In Cold Blood",
+    "gold_answers": [
+      "In Cold Blood.",
+      "\"In Cold Blood:."
+    ]
+  },
+  {
+    "id": 88,
+    "question": "Where does Diana go on her month-long trip?",
+    "prediction": "The passage does not specify a month-long trip; it mentions that Diana has been traveling with her brother for the last six years.",
+    "gold_answers": [
+      "The desert",
+      "The desert"
+    ]
+  },
+  {
+    "id": 89,
+    "question": "Who kidnaps Diana in the desert?",
+    "prediction": "Ahmed Ben Hassan, a man in control of a group of Arabs, likely kidnapped Diana in the desert.",
+    "gold_answers": [
+      "Ahmed Ben Hassan",
+      "the Sheik"
+    ]
+  },
+  {
+    "id": 90,
+    "question": "How did Diana's father due?",
+    "prediction": "The text does not provide information about what Diana's father did.",
+    "gold_answers": [
+      "He died from the grief he  suffered from the death of Diana's mother.",
+      "He killed himself "
+    ]
+  },
+  {
+    "id": 91,
+    "question": "Why does Ahmed rape and mistreat Diana?",
+    "prediction": "The text does not provide a clear reason for Ahmed to rape and mistreat Diana. The passages describe a tense and dangerous situation where Diana is held captive, but do not explicitly state any specific actions of mistreatment or rape by Ahmed.",
+    "gold_answers": [
+      "Because Diana is of Endlish descent.",
+      "she is English"
+    ]
+  },
+  {
+    "id": 92,
+    "question": "Why does Ahmed hate English people?",
+    "prediction": "Ahmed's hatred of English people is rooted in a combination of personal experiences, possibly including a specific incident with Lord Glencaryll, and historical and cultural factors, such as his mother being Spanish and the presence of Moorish blood in Spanish noble families, which might have led to conflicts or misunderstandings with English people.",
+    "gold_answers": [
+      "Ahmed's father was of Enflish descent and terribly mistreated Ahmed's mother.",
+      "his English father mistreated his mother"
+    ]
+  },
+  {
+    "id": 93,
+    "question": "How many times is Diana kidnapped in the story?",
+    "prediction": "Based on the provided text, Diana is implied to have been kidnapped at least once, but the exact number of times is not explicitly stated.",
+    "gold_answers": [
+      "Twice",
+      "Once"
+    ]
+  },
+  {
+    "id": 94,
+    "question": "When does Ahmed realize he is in love with Diana?",
+    "prediction": "Ahmed realizes he is in love with Diana after she expresses her love for someone else, likely the Sheik, and he feels a deep sadness and a desire to protect her.",
+    "gold_answers": [
+      "Ahmed realizes he is in love with Diana when she is kid napped by his rival.",
+      "when she is kidnapped"
+    ]
+  },
+  {
+    "id": 95,
+    "question": "When does Diana realize she is in love with Ahmed?",
+    "prediction": "Diana realizes she is in love with Ahmed during her agony and despair, as evidenced by her exclamation, \"Oh, God! How she loved him! Ahmed!\"",
+    "gold_answers": [
+      "Diana realizes she is in love with Ahmed when he recaptures her from his rival who kidnapped her.",
+      "After she's recaptured"
+    ]
+  },
+  {
+    "id": 96,
+    "question": "What is Diana's brother's name?",
+    "prediction": "Diana's brother's name is Sir Aubrey Mayo.",
+    "gold_answers": [
+      "Sir Aubrey Mayo",
+      "Aubrey"
+    ]
+  },
+  {
+    "id": 97,
+    "question": "Why does Ahmed want to send Dana away from him?",
+    "prediction": "The passage does not provide information about Ahmed wanting to send Dana away.",
+    "gold_answers": [
+      "Ahmed wants to send Diana away because of his",
+      "He loves her and does not want to mistreat her anymore."
+    ]
+  },
+  {
+    "id": 98,
+    "question": "Why did Diana grow up tomboyish?",
+    "prediction": "Diana grew up tomboyish because her uncle, Sir Aubrey Mayo, had planned her upbringing to prepare her to be a companion to a man with similar interests, involving rigorous training in activities like riding, shooting, and fishing.",
+    "gold_answers": [
+      "Her parents died when she was young",
+      "Parents died"
+    ]
+  },
+  {
+    "id": 99,
+    "question": "Where does Diana want to travel to at the beginning of the story?",
+    "prediction": "The story does not explicitly state where Diana wants to travel to at the beginning. However, it is clear that she does not want to return to Biskra.",
+    "gold_answers": [
+      "the desert",
+      "desert"
+    ]
+  },
+  {
+    "id": 100,
+    "question": "Who betrayed Diana, allowing her to be kidnapped?",
+    "prediction": "The text does not provide a clear answer to who betrayed Diana, allowing her to be kidnapped. The situation described involves her being caught by men and taken to the Sheik, but no specific betrayal is mentioned.",
+    "gold_answers": [
+      "her guide",
+      "Her guide, who was easily bribed."
+    ]
+  },
+  {
+    "id": 101,
+    "question": "Who was overseeing Diana when she first escaped?",
+    "prediction": "Ahmed Ben Hassan was overseeing Diana when she first escaped.",
+    "gold_answers": [
+      "Gaston",
+      "Gaston"
+    ]
+  },
+  {
+    "id": 102,
+    "question": "When Diana first fell in love with Ahmed, why would he send her away if he learned of her love for him?",
+    "prediction": "The passage does not provide a clear reason for Ahmed to send Diana away if he learned of her love for him. It suggests that their relationship is complicated and that Diana is unaware of Ahmed's true feelings, while Ahmed is trying to manage the situation to avoid revealing his true feelings and to maintain control.",
+    "gold_answers": [
+      "He finds love dull.",
+      "He says he finds love dull."
+    ]
+  },
+  {
+    "id": 103,
+    "question": "Why does Ahmed constantly punish Diana?",
+    "prediction": "The passage does not provide information to conclude that Ahmed is constantly punishing Diana.",
+    "gold_answers": [
+      "she is English",
+      "Because she is of English descent, and he is ingratiated to hate the English."
+    ]
+  },
+  {
+    "id": 104,
+    "question": "Who is wounded trying to save Diana?",
+    "prediction": "The wounded man is trying to save Diana.",
+    "gold_answers": [
+      "Ahmed",
+      "Ahmed"
+    ]
+  },
+  {
+    "id": 105,
+    "question": "What nationality was Ahmed's mother?",
+    "prediction": "Ahmed's mother was Spanish.",
+    "gold_answers": [
+      "Spanish",
+      "His mother was Spanish."
+    ]
+  },
+  {
+    "id": 106,
+    "question": "What does Diana do with a revolver when Ahmed decides to send her away?",
+    "prediction": "Diana attempts to take a revolver but Ahmed stops her from using it.",
+    "gold_answers": [
+      "tries to kill herself",
+      "Tries to shoot herself."
+    ]
+  },
+  {
+    "id": 107,
+    "question": "What did Diana refuse before she left on her journey, demonstrating her independence?",
+    "prediction": "Diana refused to give up on her \"insane trip\" before she left on her journey, demonstrating her independence.",
+    "gold_answers": [
+      "a marriage proposal",
+      "Marriage proposal"
+    ]
+  },
+  {
+    "id": 108,
+    "question": "What does Diana reveal at the dance in Biskra?",
+    "prediction": "The passage does not provide information about Diana revealing anything at a dance in Biskra.",
+    "gold_answers": [
+      "That she is going on a trip into the desert.",
+      "she is leaving"
+    ]
+  },
+  {
+    "id": 109,
+    "question": "What best describes Diana?",
+    "prediction": "Diana is a strong, independent, and emotionally complex woman who has recently experienced significant hardship but maintains control over her emotions and actions.",
+    "gold_answers": [
+      "She is an independent minded tomboy.",
+      "Independent."
+    ]
+  },
+  {
+    "id": 110,
+    "question": "What happens that prolongs Diana's trip into the desert?",
+    "prediction": "The pursuit by the band of Arabs prolongs Diana's trip into the desert.",
+    "gold_answers": [
+      "She is kidnapped.",
+      "She is kidnapped by a rival Sikh."
+    ]
+  },
+  {
+    "id": 111,
+    "question": "Why does Ahmed mistreat Diana?",
+    "prediction": "The text does not provide information to conclude that Ahmed mistreats Diana. Instead, it portrays a situation where Diana is held captive and feels threatened by the presence of Ahmed and the other Arabs.",
+    "gold_answers": [
+      "He hates English people.",
+      "Because she is English"
+    ]
+  },
+  {
+    "id": 112,
+    "question": "What nationality is Ahmed's mother?",
+    "prediction": "Ahmed's mother is Spanish.",
+    "gold_answers": [
+      "She is Spanish.",
+      "His mother was Spanish."
+    ]
+  },
+  {
+    "id": 113,
+    "question": "How does Diana feel when Ahmed tells her to leave?",
+    "prediction": "Diana feels angry, frustrated, and sad when she is in a situation where she must leave or be left alone.",
+    "gold_answers": [
+      "She is upset.",
+      "Sad"
+    ]
+  },
+  {
+    "id": 114,
+    "question": "Why does Diana put a gun to her own head?",
+    "prediction": "The passage does not provide a clear reason for Diana to put a gun to her own head. It only mentions her holding and considering using a revolver, but the specific intention or reason is not explicitly stated.",
+    "gold_answers": [
+      "She doesn't want to leave Ahmed.",
+      "suicide"
+    ]
+  },
+  {
+    "id": 115,
+    "question": "Who travels with Diana into the desert?",
+    "prediction": "Diana travels with a guide and his men, as well as native camel drivers and servants, but there is no mention of a chaperon or attendant of her own sex.",
+    "gold_answers": [
+      "A guide.",
+      "Her Arab guide."
+    ]
+  },
+  {
+    "id": 116,
+    "question": "When does Diana realize that she is in love with Ahmed?",
+    "prediction": "Diana realizes that she is in love with Ahmed when she is in her agony and despair while being held captive, as evidenced by her exclamation, \"Oh, God! How she loved him! Ahmed!\"",
+    "gold_answers": [
+      "During the ride back to camp.",
+      "when her escape attempt is foiled"
+    ]
+  },
+  {
+    "id": 117,
+    "question": "How long does Jimmy Gator have to live?",
+    "prediction": "Jimmy Gator has about two months to live.",
+    "gold_answers": [
+      "Just a few months. ",
+      "He only has a few months to live."
+    ]
+  },
+  {
+    "id": 118,
+    "question": "Who is Linda to Earl?",
+    "prediction": "Linda is Earl's daughter.",
+    "gold_answers": [
+      "His trophy wife. ",
+      "Linda is Earl's wife."
+    ]
+  },
+  {
+    "id": 119,
+    "question": "Why did Linda marry Earl?",
+    "prediction": "The script does not provide information on why Linda married Earl.",
+    "gold_answers": [
+      "For his money. ",
+      "for money"
+    ]
+  },
+  {
+    "id": 120,
+    "question": "What did Jimmy Gator confess to Rose?",
+    "prediction": "Jimmy Gator confessed to Rose that Claudia thinks he may have molested her.",
+    "gold_answers": [
+      "He cheated on her. ",
+      "that he cheated on her"
+    ]
+  },
+  {
+    "id": 121,
+    "question": "Who goes on a date with Jim Kurring?",
+    "prediction": "Claudia goes on a date with Jim Kurring.",
+    "gold_answers": [
+      "Claudia Wilson. ",
+      "Claudia Wilson."
+    ]
+  },
+  {
+    "id": 122,
+    "question": "When Jim Kurring enters an apartment what does he find?",
+    "prediction": "Jim Kurring finds Marcie, a large black woman, ranting and raving when he enters the apartment.",
+    "gold_answers": [
+      "A dead body. ",
+      "a body in a closet"
+    ]
+  },
+  {
+    "id": 123,
+    "question": "What happen to Stanley Spector during the quiz show?",
+    "prediction": "Stanley Spector runs from the podium and disappears from the stage during the quiz show.",
+    "gold_answers": [
+      "He wets himself and freezes. ",
+      "He wets himself and is frozen in front of an audience."
+    ]
+  },
+  {
+    "id": 124,
+    "question": "Besides Jimmy Gator, who is also dying of cancer?",
+    "prediction": "The script does not mention another character besides Jimmy Gator who is dying of cancer.",
+    "gold_answers": [
+      "Earl Partridge. ",
+      "Earl Partridge"
+    ]
+  },
+  {
+    "id": 125,
+    "question": "Where does Rose crash her car? ",
+    "prediction": "Rose crashes her car into a parked car.",
+    "gold_answers": [
+      "In front of Claudia's apartment. ",
+      "In front of Claudia's apartment."
+    ]
+  },
+  {
+    "id": 126,
+    "question": "Earl asks Phil Pharma to help him find what? ",
+    "prediction": "Frank Mackey",
+    "gold_answers": [
+      "Frank Mackey. ",
+      "his son"
+    ]
+  },
+  {
+    "id": 127,
+    "question": "What is the secret Claudia keeps from Jim Kurring?",
+    "prediction": "Claudia's secret from Jim Kurring is that she is using drugs, as evidenced by her snorting coke in the bathroom stall.",
+    "gold_answers": [
+      "Claudia is addicted to cocaine.",
+      "That she is a drug addict."
+    ]
+  },
+  {
+    "id": 128,
+    "question": "What is the name of Jimmy Gator's TV show?",
+    "prediction": "Jimmy Gator's TV show is \"What Do Kids Know?\".",
+    "gold_answers": [
+      "What do Kids Know?",
+      "What Do Kids Know is the name of Jimmy Gator's TV show."
+    ]
+  },
+  {
+    "id": 129,
+    "question": "What does Stanley Spector's father want?",
+    "prediction": "Rick Spector wants Stanley to leave quickly and get into the car.",
+    "gold_answers": [
+      "Stanley's father expects Stanley to give him the prize money.",
+      "he pressures him to win What Do Kids Know? because he wants the prize money"
+    ]
+  },
+  {
+    "id": 130,
+    "question": "Who is Donnie Smith?",
+    "prediction": "Donnie Smith is a former child prodigy and \"Quiz Kid\" from the 1960s who received a $100,000 check for his intelligence, now in his 40s and dealing with adult life challenges.",
+    "gold_answers": [
+      "Donnie smith is a former winner on \"What do Kids Know?\" whose parents spent his prize money.",
+      "a former What Do Kids Know? champion whose parents spent his prize money"
+    ]
+  },
+  {
+    "id": 131,
+    "question": "Which two characters have cancer?",
+    "prediction": "Earl Partridge and Jimmy Gator have cancer.",
+    "gold_answers": [
+      "Jimmy Gator and Earl Partridge both have cancer.",
+      "Earl and Jimmy"
+    ]
+  },
+  {
+    "id": 132,
+    "question": "What is Donnie Smith's sexual orientation? ",
+    "prediction": "The script does not provide information about Donnie Smith's sexual orientation.",
+    "gold_answers": [
+      "Donnie Smith is homosexual.",
+      "Gay"
+    ]
+  },
+  {
+    "id": 133,
+    "question": "Why doesn't Earl's wife Linda want the money in his will?",
+    "prediction": "Linda does not want the money because she married Earl for his money, not out of love, and she does not want to inherit from a man she no longer loves.",
+    "gold_answers": [
+      "Linda now loves Earl, and the money doesn't mean anything to Linda.",
+      "She loves Earl."
+    ]
+  },
+  {
+    "id": 134,
+    "question": "Who saves Donnie?",
+    "prediction": "Jim Kurring saves Donnie.",
+    "gold_answers": [
+      "Jim saves Donnie and helps Donnie return the money he stole from Solomon & Solomon.",
+      "Jim"
+    ]
+  },
+  {
+    "id": 135,
+    "question": "What symbolizes Jim finally achieving success at his law enforcement job?",
+    "prediction": "The script does not provide a clear symbol of Jim achieving success at his law enforcement job. However, his statement of loving his job and his dedication to staying physically fit could be interpreted as indicators of his success and satisfaction in his role.",
+    "gold_answers": [
+      "The gun falling from the sky back to him.",
+      "he councils Donnie and helps him return the money"
+    ]
+  },
+  {
+    "id": 136,
+    "question": "Why is Claudia estranged from her father?",
+    "prediction": "The script does not provide a specific reason for Claudia's estrangement from her father, but it is clear that there is a significant conflict or unresolved issue between them, likely related to her mother's past with the father.",
+    "gold_answers": [
+      "She believes Jimmy molested her.",
+      "she believes he molested her as a child"
+    ]
+  },
+  {
+    "id": 137,
+    "question": "What is ironic about Donnie's teeth being knocked out when he falls from the pole?",
+    "prediction": "The irony is that Donnie, who was known for his perfect teeth and intelligence as a quiz kid, ends up with broken teeth after a fall, highlighting the contrast between his past achievements and his current physical state.",
+    "gold_answers": [
+      "He no longer has to worry about getting braces on his teeth.",
+      "He was seeking money from his job for braces and oral surgery."
+    ]
+  },
+  {
+    "id": 138,
+    "question": "Why does Claudia think her past will cause problems for her and Jim?",
+    "prediction": "Claudia thinks her past, possibly involving substance use or other problematic behaviors, might cause problems for her and Jim, as indicated by Jim's questions and the context of the conversation.",
+    "gold_answers": [
+      "Jim doesn't know she's a drug addict.",
+      "Because she is a drug addict and he is a cop."
+    ]
+  },
+  {
+    "id": 139,
+    "question": "How are Frank and Linda related?",
+    "prediction": "Frank and Linda are mother and son.",
+    "gold_answers": [
+      "Linda is Frank's stepmother.",
+      "Linda would be Frank's step mother."
+    ]
+  },
+  {
+    "id": 140,
+    "question": "Why are Frank and Earl estranged?",
+    "prediction": "Frank and Earl are estranged because they don't communicate much, as indicated by Phil's description of Earl as \"pretty out of it\" and dying, yet not knowing how to contact Frank. There is also a suggestion that they might not have a close relationship, given that they don't share the same last name and Frank is not listed in Earl's will.",
+    "gold_answers": [
+      "Because Earl left Frank's mother when she was dying.",
+      "Frank was forced to take care of his dying mother when Earl left."
+    ]
+  },
+  {
+    "id": 141,
+    "question": "What did Dixon do before calling an ambulance for Linda?",
+    "prediction": "Dixon took Linda's purse, took the money out of her wallet, and then reached for her cell phone to dial 911 before calling the ambulance.",
+    "gold_answers": [
+      "He stole money from her wallet.",
+      "He takes money from her purse before he does."
+    ]
+  },
+  {
+    "id": 142,
+    "question": "How does Linda try to commit suicide?",
+    "prediction": "Linda tries to commit suicide by jumping off a rooftop, but her attempt is unsuccessful due to a safety net.",
+    "gold_answers": [
+      "By overdosing on Earl's prescription medication.",
+      "booze and perscription pills"
+    ]
+  },
+  {
+    "id": 143,
+    "question": "Why is it implied that Jimmy confesses his unfaithfulness to Rose?",
+    "prediction": "Jimmy confesses his unfaithfulness to Rose because of direct confrontations from her and his own admission of guilt, which are implied through the script's dialogue and interactions.",
+    "gold_answers": [
+      "He is dying of cancer and has only a few months to live.",
+      "because he went home and told her that he had cheated on her"
+    ]
+  },
+  {
+    "id": 144,
+    "question": "Why was Donnie climbing a utility pole?",
+    "prediction": "The script does not mention Donnie climbing a utility pole; he is climbing a ladder near Solomon and Solomon Electronics.",
+    "gold_answers": [
+      "To access the roof of Solomon & Solomon.",
+      "He is trying to reach the roof."
+    ]
+  },
+  {
+    "id": 145,
+    "question": "What does the poor businessman dream of?",
+    "prediction": "Almayer dreams of recovering debts, improving his standing with the Rajah, and securing a future for himself and his daughter Nina where she becomes the richest woman in the East or even the world.",
+    "gold_answers": [
+      "Finding a gold mine and getting rich",
+      "he dream of finding a hidden gold mine"
+    ]
+  },
+  {
+    "id": 146,
+    "question": "What is \"Almayer's Folly\"?",
+    "prediction": "\"Almayer's Folly\" is a half-finished house that was built for the reception of Englishmen but was given this name by seamen after a visit, likely due to its unfinished state or other humorous reasons.",
+    "gold_answers": [
+      "An extravagant house that Almayer was having built near the Pantal River that was never completed.",
+      "his house"
+    ]
+  },
+  {
+    "id": 147,
+    "question": "Who is Dain Maroola?",
+    "prediction": "Dain Maroola is a man with a criminal past who has a significant relationship with Almayer's daughter, Taminah, and is known to other characters in the story for his past actions and current interactions.",
+    "gold_answers": [
+      "A Malayan prince who wanted to talk to Almayer about trading, but ended up falling in love with Almayer's daughter Nina.",
+      "a Malayan prince"
+    ]
+  },
+  {
+    "id": 148,
+    "question": "Why did Mrs. Almayer want her daughter to marry Dain?",
+    "prediction": "Mrs. Almayer wanted her daughter to marry Dain because she believed he was a powerful chief and she took a great interest in the love affair, and she also found gratification in Dain's generosity.",
+    "gold_answers": [
+      "so that she would stay there, because she didn't trust the white men or their ways",
+      "highly distrustful of the white men and their ways."
+    ]
+  },
+  {
+    "id": 149,
+    "question": "What does Dain tell Lakamba upon his return?",
+    "prediction": "Dain tells Lakamba that he will be at Tuan Almayer's house the next day and that they will talk then. He also mentions that he must see Lakamba at night because he is going to the Rajah.",
+    "gold_answers": [
+      "That he had found the gold mine but the Dutchmen had taken his ship",
+      "he found gold mine and some Dutchmen has  captured it."
+    ]
+  },
+  {
+    "id": 150,
+    "question": "Why was Almayer so  upset when the body was found floating in the river?",
+    "prediction": "Almayer was upset because the body was found floating in the river, which meant the body would be identified and the circumstances of the death would be known, leading to significant personal, social, and possibly political implications for him.",
+    "gold_answers": [
+      "because the body was wearing Dain's jewelry and now he has no chance to find the gold",
+      "He thought it was Dain and that without him he'd never find the mine."
+    ]
+  },
+  {
+    "id": 151,
+    "question": "Who told Almayer where his daughter was?",
+    "prediction": "Dain Maroola told Almayer where his daughter was.",
+    "gold_answers": [
+      "A native slave girl",
+      "a native slave girl"
+    ]
+  },
+  {
+    "id": 152,
+    "question": "Although says he will never forgive Nina what does he promise to do?",
+    "prediction": "Almayer promises to deliver Dain Maroola, a man who killed innocent men to avoid punishment for breaking the law.",
+    "gold_answers": [
+      "to take her and Dain to the mouth of the river where they would find a boat to help them escape",
+      "He still promises to help her escape"
+    ]
+  },
+  {
+    "id": 153,
+    "question": "What did Mrs. Altmeyer do after Nina leaves?",
+    "prediction": "The passage does not provide specific actions of Mrs. Almayer after Nina leaves, but it can be inferred that she likely continued to influence the situation negatively.",
+    "gold_answers": [
+      "she left and took Dain's money with her",
+      "he erased the footprints"
+    ]
+  },
+  {
+    "id": 154,
+    "question": "What did Almayer do after his wife left?",
+    "prediction": "After his wife left, Almayer would walk away in silence, descend the steps, and go to his new house in solitude. He also took to excursions up the river in a small canoe with two paddlers and a steersman named Ali, disappearing for a few days at a time.",
+    "gold_answers": [
+      "destroyed his furniture, burned his house to the ground, and lived in his \"Folly\", smoking opium until he died. ",
+      "long trips and hopeless dream"
+    ]
+  },
+  {
+    "id": 155,
+    "question": "Why did Dutch seamen name the house \"Almayer's Folly\"?",
+    "prediction": "The Dutch seamen named the house \"Almayer's Folly\" because of the non-appearance of Almayer's daughter and the unfinished state of the house, which they used as a jest at Almayer's expense.",
+    "gold_answers": [
+      "it was lavish but unfinished and built for something that never happened.",
+      "It was built by Almayer to look good."
+    ]
+  },
+  {
+    "id": 156,
+    "question": "Why did Almayer build the house?",
+    "prediction": "Almayer built the house to accommodate a young couple and to provide a residence for Lingard, who was planning to develop big trade and possibly engage in activities related to gold and diamonds in the interior of the island.",
+    "gold_answers": [
+      "He believed the British were coming and wanted to welcome them.",
+      "in order to invite the invading state"
+    ]
+  },
+  {
+    "id": 157,
+    "question": "What was the rajah's reasoning for killing Almayer?",
+    "prediction": "The text does not provide information about the Rajah's reasoning for killing Almayer.",
+    "gold_answers": [
+      "They already knew where the gold was, so they didn't need him.",
+      "he had become unnecessary "
+    ]
+  },
+  {
+    "id": 158,
+    "question": "Who was the unidentifiable corpse floating with an ankle bracelet?",
+    "prediction": "The passage does not mention an unidentifiable corpse with an ankle bracelet. The corpse described is that of a white man whose head was missing, identified by Mrs. Almayer.",
+    "gold_answers": [
+      "Dain's slave.",
+      "a slave"
+    ]
+  },
+  {
+    "id": 159,
+    "question": "Who advised Dain to place his anklet and ring on the dead slave?",
+    "prediction": "The text does not provide information about who advised Dain to place his anklet and ring on the dead slave.",
+    "gold_answers": [
+      "Mrs. Almayer.",
+      "Mrs. Almayer"
+    ]
+  },
+  {
+    "id": 160,
+    "question": "Towards the end of the story, how did Almayer attempt to forget his daughter?",
+    "prediction": "The passages do not provide information on how Almayer attempted to forget his daughter. Instead, they show that he frequently spoke about her and his plans for the future.",
+    "gold_answers": [
+      "He smoked opium.",
+      "smoking opium"
+    ]
+  },
+  {
+    "id": 161,
+    "question": "What ultimately happened to Almayer's house?",
+    "prediction": "Almayer's house was eventually overgrown with grass and no longer visible, with only a black patch of ground marking its former location.",
+    "gold_answers": [
+      "He burned it to the ground.",
+      "Almayer destroys it"
+    ]
+  },
+  {
+    "id": 162,
+    "question": "Why did Almayer's wife loathe him?",
+    "prediction": "Almayer's wife loathed him due to her jealousy over her daughter's affection for him, her hatred of civilized signs associated with him, and her mercenary and controlling nature.",
+    "gold_answers": [
+      "He stays home and dreams of riches and splendor.",
+      "he dreamed of riches and splendor"
+    ]
+  },
+  {
+    "id": 163,
+    "question": "How did Nina, Dain, and Almayer escape the Dutch?",
+    "prediction": "The passage does not provide information on how Nina, Dain, and Almayer escaped the Dutch.",
+    "gold_answers": [
+      "A canoe at the mouth of the river.",
+      "escape through mouth of the river."
+    ]
+  },
+  {
+    "id": 164,
+    "question": "Why did Mrs. Almayer push Nina and Dain together?",
+    "prediction": "Mrs. Almayer pushed Nina and Dain together to protect Nina from Almayer's potential violence, as she feared Dain might be a threat and wanted to intervene to prevent any harm to her daughter.",
+    "gold_answers": [
+      "She didn't trust white men and wanted Nina to stay native.",
+      "she wanted them to marry"
+    ]
+  },
+  {
+    "id": 165,
+    "question": "Why did Nina not want to go back?",
+    "prediction": "Nina did not want to go back because she was being sent away to live a life of splendour and might far from her mother, who was destined to die in their home, and she was concerned about not seeing her mother again.",
+    "gold_answers": [
+      "She thought the white society would use slurs.",
+      "she did not want to be exposed to the negatives of white society"
+    ]
+  },
+  {
+    "id": 166,
+    "question": "Why did Mrs. Almayer run away?",
+    "prediction": "Mrs. Almayer ran away to stop Nina from going to see the white woman.",
+    "gold_answers": [
+      "She ran away with the rajah for protection.",
+      "for protection"
+    ]
+  },
+  {
+    "id": 167,
+    "question": "How did Dain fool the rajah into thinking that he was dead?",
+    "prediction": "The passage does not provide specific details on how Dain fooled the rajah into thinking he was dead, but it can be inferred that he likely planned to either feign his death or create a situation that would make it appear as though he had died, to protect the secret of the white man's treasure and avoid implicating himself or others.",
+    "gold_answers": [
+      "He killed one of Almayer's slaves and put his ring and ankle bracelet on the corpse to make it look like himself.",
+      "Dain used the body of the dead slave with an ankle bracelet "
+    ]
+  },
+  {
+    "id": 168,
+    "question": "Why did Almayer build his \"folly\"?",
+    "prediction": "Almayer built his \"folly\" to attract Englishmen to Sambir, hoping to boost trade and improve the town's status, but the house was never completed.",
+    "gold_answers": [
+      "He built the lavish house because he heard the British were invading.",
+      "to welcome incoming conquerors "
+    ]
+  },
+  {
+    "id": 169,
+    "question": "What was Almayer always trying to do?",
+    "prediction": "Almayer was always trying to improve his financial situation and plan for great fortunes.",
+    "gold_answers": [
+      "He was always trying to find a hidden gold mine and become wealthy.",
+      "improve his status by finding gold, wealth"
+    ]
+  },
+  {
+    "id": 170,
+    "question": "What did Almayer do when Mrs. Almayer left and Nina was gone?",
+    "prediction": "The text does not provide information about what Almayer did when Mrs. Almayer left and Nina was gone.",
+    "gold_answers": [
+      "He burned his furniture and home and lived in his \"folly\" until he died.",
+      "He broke all the furniture in his office and burned it along with the house."
+    ]
+  },
+  {
+    "id": 171,
+    "question": "What did Dain vow to come back and help Almayer with?",
+    "prediction": "Dain went to Lakamba to secure his help and a share in the operation to retrieve the treasure.",
+    "gold_answers": [
+      "He vowed to come back and help Almayer find the gold mine.",
+      "finding the gold mine"
+    ]
+  },
+  {
+    "id": 172,
+    "question": "Why did Nina's mother want her to marry Dain?",
+    "prediction": "Nina's mother likely wanted her to marry Dain due to his influential position and the potential benefits associated with him, such as his ability to communicate with Almayer and his role in the planned expedition.",
+    "gold_answers": [
+      "She wanted her daughter to stay native because she did not trust the white men.",
+      "so that Nina would be more native"
+    ]
+  },
+  {
+    "id": 173,
+    "question": "When Dain tells the rajah that his ship was captured by a Dutchman, what does the rajah tell him to do?",
+    "prediction": "The rajah tells Dain to escape and for Almayer to live.",
+    "gold_answers": [
+      "He tells him to kill Almayer.",
+      "To kill Almayer"
+    ]
+  },
+  {
+    "id": 174,
+    "question": "What was Almayer doing when Mrs. Almayer snuck Nina away?",
+    "prediction": "The text does not provide information about what Almayer was doing when Mrs. Almayer snuck Nina away.",
+    "gold_answers": [
+      "He was drinking with the Dutch.",
+      "drinking"
+    ]
+  },
+  {
+    "id": 175,
+    "question": "How was Leonard  Lowe able to communicate with Dr. Malcolm Sayer?",
+    "prediction": "Leonard Lowe communicated with Dr. Malcolm Sayer through a phone call.",
+    "gold_answers": [
+      "By means of a Ouija board",
+      "Ouija board"
+    ]
+  },
+  {
+    "id": 176,
+    "question": "In what does the year the story take place?",
+    "prediction": "The year in which the story takes place is not mentioned in the provided text.",
+    "gold_answers": [
+      "1969",
+      "1969"
+    ]
+  },
+  {
+    "id": 177,
+    "question": "What was the ailment Dr. Sayer patients suffer from?",
+    "prediction": "The ailment Dr. Sayer's patients suffer from is encephalitis lethargica.",
+    "gold_answers": [
+      "They were in a catatonic state.",
+      "encephalitis lathargica"
+    ]
+  },
+  {
+    "id": 178,
+    "question": "What was the drug that Dr. Malcolm Sayer wanted to test and use on his patients?",
+    "prediction": "L-Dopa",
+    "gold_answers": [
+      "L-Dopa",
+      "L dopa"
+    ]
+  },
+  {
+    "id": 179,
+    "question": "Who did Leonard Lowe become romantically interested in after his awakening?",
+    "prediction": "The script does not provide information about Leonard Lowe becoming romantically interested in anyone after his awakening.",
+    "gold_answers": [
+      "Paula",
+      "Nurse"
+    ]
+  },
+  {
+    "id": 180,
+    "question": "What disease caused the catatonic state of Dr. Malcolm Sayer's patients?",
+    "prediction": "Encephalitis lethargica.",
+    "gold_answers": [
+      "Encephalitis lethargica",
+      "Encephalitis lethargica."
+    ]
+  },
+  {
+    "id": 181,
+    "question": "What happened to Leonard Lowe when he became agitated while arguing with Dr. Sayer and the staff?",
+    "prediction": "The given scripts do not provide information about what happened to Leonard Lowe when he became agitated while arguing with Dr. Sayer and the staff.",
+    "gold_answers": [
+      "He started to suffer hard to control facial and body tics",
+      "His facial tics start again"
+    ]
+  },
+  {
+    "id": 182,
+    "question": "What happened with Dr. Sayer's patients when they were treated with the L-Dopa?",
+    "prediction": "Dr. Sayer's patients experienced side effects when treated with L-Dopa, as evidenced by Leonard's mention of the drug not working and the side effects consuming him.",
+    "gold_answers": [
+      "The awoke from their catatonia",
+      "They had seizures and became catatonic"
+    ]
+  },
+  {
+    "id": 183,
+    "question": "What happened to Dr. Sayer patients at the end of the story?",
+    "prediction": "The script does not specify what happened to Dr. Sayer's patients at the end of the story. It describes them as post-encephalitic patients with significant disabilities and behavioral changes, but does not provide a conclusion to their fate.",
+    "gold_answers": [
+      "They all returned to the catatonic state.",
+      "A return to catatonia "
+    ]
+  },
+  {
+    "id": 184,
+    "question": "In what years did the encephalitis lethargica outbreak took place?",
+    "prediction": "The encephalitis lethargica outbreak took place in the 1920s, specifically around 1925.",
+    "gold_answers": [
+      "From 1917 to 1928",
+      "1917 to 1928."
+    ]
+  },
+  {
+    "id": 185,
+    "question": "In what way do Leonard and Sayer communicate before Leonard's awakenng?",
+    "prediction": "The script does not provide information on how Leonard and Sayer communicated before Leonard's awakening, but it can be inferred that they likely communicated through non-verbal means or through other patients and staff members.",
+    "gold_answers": [
+      "With a Ouija board.",
+      "Through a ouija board."
+    ]
+  },
+  {
+    "id": 186,
+    "question": "How does Leonard want to help people?",
+    "prediction": "Leonard wants to help people by reminding them what life is all about and what it means to be alive.",
+    "gold_answers": [
+      "By being filmed.",
+      "By helping them to reawaken"
+    ]
+  },
+  {
+    "id": 187,
+    "question": "What caused the patients' catatonia?",
+    "prediction": "The patients' catatonia was caused by a sleep-related illness, specifically encephalitis lethargica, which led to a deep, unresponsive sleep for several months during the acute stage of the illness.",
+    "gold_answers": [
+      "Encephalitis Lethargica.",
+      "Encephalitis lethargica."
+    ]
+  },
+  {
+    "id": 188,
+    "question": "How did Sayer learn about the L-Dopa drug?",
+    "prediction": "Sayer learned about the L-Dopa drug through his work and research, as evidenced by his involvement in the clinical trials and administration of the drug to patients.",
+    "gold_answers": [
+      "He attended a lecture about its use in treating Parkinsons.",
+      "attending a lecture at a conference"
+    ]
+  },
+  {
+    "id": 189,
+    "question": "What does Leonard  do about being kept in the hospital?",
+    "prediction": "Leonard initially decides to leave the hospital but then changes his mind and stays, telling Sayer he is okay and waving goodbye to his mother.",
+    "gold_answers": [
+      "He stirs up a revolt.",
+      "Stirs up a revolt"
+    ]
+  },
+  {
+    "id": 190,
+    "question": "Why does Sayer ask Nurse Eleanor Costello out for coffee?",
+    "prediction": "Sayer does not ask Nurse Eleanor Costello out for coffee. The script shows Miss Costello offering to get a cup of coffee or tea with Sayer, which appears to be a friendly gesture.",
+    "gold_answers": [
+      "She had previously asked him, and asking her is part of his own awakening.",
+      "He had said no to her a few months before"
+    ]
+  },
+  {
+    "id": 191,
+    "question": "Aside from Sayer and the patients, who else experiences a kind of awakening in the story?",
+    "prediction": "Leonard and his mother also experience a kind of awakening in the story.",
+    "gold_answers": [
+      "The nurses are more kind, and Paula keeps visiting Leonard.",
+      "Dr. Sayer"
+    ]
+  },
+  {
+    "id": 192,
+    "question": "When does Sayer start noticing the breakdown of Leonard's awakening?",
+    "prediction": "Sayer starts noticing the breakdown of Leonard's awakening when Leonard begins to fight to free himself and make it almost impossible for the orderlies to restrain him.",
+    "gold_answers": [
+      "Leonard has uncontrollable tics after the revolt.",
+      "he notices certain stimuli he reacts to."
+    ]
+  },
+  {
+    "id": 193,
+    "question": "Who does Sayer approach for money for the L-Dopa treatments?",
+    "prediction": "The script does not provide information on who Sayer approaches for money for the L-Dopa treatments.",
+    "gold_answers": [
+      "Grant donors.",
+      "Donors"
+    ]
+  },
+  {
+    "id": 194,
+    "question": "Why is Paula at the hospital?",
+    "prediction": "Paula is at the hospital both to visit Leonard, a patient, and to work there.",
+    "gold_answers": [
+      "She is the daughter of another patient.",
+      "Paula is the daughter of a patient at the hospital"
+    ]
+  },
+  {
+    "id": 195,
+    "question": "What is Malcom's job?",
+    "prediction": "The script does not provide information about Malcom's job.",
+    "gold_answers": [
+      "doctor",
+      "He's a doctor"
+    ]
+  },
+  {
+    "id": 196,
+    "question": "Where in NYC is Malcolm's hospital?",
+    "prediction": "Malcolm's hospital is in The Bronx, New York City.",
+    "gold_answers": [
+      "the Bronx",
+      "borough of the Bronx"
+    ]
+  },
+  {
+    "id": 197,
+    "question": "What kind of patients did Malcolm work with extensively?",
+    "prediction": "Malcolm Sayer worked extensively with patients who had profound neurological diseases.",
+    "gold_answers": [
+      "catatonic",
+      "Catatonic patients"
+    ]
+  },
+  {
+    "id": 198,
+    "question": "What drug did Malcolm give a lecture on?",
+    "prediction": "The information provided does not specify any drug that Malcolm gave a lecture on.",
+    "gold_answers": [
+      "El Dopa",
+      "L-Dopa"
+    ]
+  },
+  {
+    "id": 199,
+    "question": "What disease does El Dopa helps?",
+    "prediction": "L-Dopa helps with Parkinson's Disease.",
+    "gold_answers": [
+      "Parkinsons",
+      "Parkinson's"
+    ]
+  },
+  {
+    "id": 200,
+    "question": "Who awakens from his catatonic state after taking el dopa?",
+    "prediction": "Leonard awakens from his catatonic state after taking L-Dopa.",
+    "gold_answers": [
+      "Leaonard",
+      "Leonard Lowe"
+    ]
+  },
+  {
+    "id": 201,
+    "question": "Who does Leonard become romantically interested in?",
+    "prediction": "Leonard does not become romantically interested in any specific person in the provided script excerpts.",
+    "gold_answers": [
+      "Paula",
+      "Paula"
+    ]
+  },
+  {
+    "id": 202,
+    "question": "What does Leonard stir up after arguing his case to Leonard and the hospital?",
+    "prediction": "The script does not mention Leonard stirring up anything after arguing his case to his mother and Leonard.",
+    "gold_answers": [
+      "a revolt",
+      "A revolt."
+    ]
+  },
+  {
+    "id": 203,
+    "question": "What kind of ticks manifest in Leonard?",
+    "prediction": "Leonard's ticks manifest as new ones, elaborations, counter-tics, and specific movements like touching his ear and pants.",
+    "gold_answers": [
+      "facial and body",
+      "Face and body tics"
+    ]
+  },
+  {
+    "id": 204,
+    "question": "Who does Sayer ask out to have coffee?",
+    "prediction": "The passage does not provide information about Sayer inviting anyone out for coffee.",
+    "gold_answers": [
+      "Eleanor Costello",
+      "Nurse Eleanor Costello."
+    ]
+  },
+  {
+    "id": 205,
+    "question": "Why is Harney exploring buildings?",
+    "prediction": "Harney is exploring buildings to gather information and inspiration for his book on Colonial houses.",
+    "gold_answers": [
+      "Because he is preparing for a book on colonial houses",
+      "For a book he is preparing."
+    ]
+  },
+  {
+    "id": 206,
+    "question": "What did Mr. Royall do after the death of his wife?",
+    "prediction": "After the death of his wife, Mr. Royall came back to live at North Dormer and developed a habit of drinking whiskey.",
+    "gold_answers": [
+      "Tried to force himself into Charity's bedroom and asks her to marry him.",
+      "Ask Charity to marry him."
+    ]
+  },
+  {
+    "id": 207,
+    "question": "What does Mr. Royall tell Harney when he notices how close Harney and Charity become?",
+    "prediction": "The passage does not provide information about Mr. Royall noticing how close Harney and Charity become and then telling Harney something.",
+    "gold_answers": [
+      "Mr. Royall tells Harney he may no longer board with him.",
+      "He can no longer live in his house."
+    ]
+  },
+  {
+    "id": 208,
+    "question": "On a trip to Nettleton, what present does Harney buy for Charity?",
+    "prediction": "The passage does not mention Harney buying a present for Charity during the trip to Nettleton.",
+    "gold_answers": [
+      "A brooch",
+      "A brooch."
+    ]
+  },
+  {
+    "id": 209,
+    "question": "When Harney and Charity run into a drunk Mr. Royall, who is with him?",
+    "prediction": "The passage does not provide information about who, if anyone, is with Mr. Royall when he is drunk.",
+    "gold_answers": [
+      "Prostitutes.",
+      "Prostitutes."
+    ]
+  },
+  {
+    "id": 210,
+    "question": "During which event does Charity see Harney with Annabel?",
+    "prediction": "Charity sees Harney with Annabel at a garden-party at Springfield.",
+    "gold_answers": [
+      "Old Home Week",
+      "A charity during Old Home's Week"
+    ]
+  },
+  {
+    "id": 211,
+    "question": "After seeing Harney and Annabel, where does Charity go and unexpectedly run into Mr Royall?",
+    "prediction": "Charity goes down the steps and unexpectedly runs into Mr. Royall at the gate.",
+    "gold_answers": [
+      "An abandoned house",
+      "An abandoned house."
+    ]
+  },
+  {
+    "id": 212,
+    "question": "What secret does Ally accidentally share with Charity about Harney?",
+    "prediction": "Ally accidentally shares with Charity that Julia is engaged to Mr. Harney.",
+    "gold_answers": [
+      "That he is engaged to Annabel",
+      "She tells Charity Harney left with Annabel, whom he is engaged to be married."
+    ]
+  },
+  {
+    "id": 213,
+    "question": "Which suspicion does Dr. Merkel confirm?",
+    "prediction": "Dr. Merkle confirms that Charity suspects she runs the establishment for her own amusement, which Dr. Merkle dismisses as a common excuse and asserts that she will send the bill to Charity's parents if Charity cannot pay.",
+    "gold_answers": [
+      "That Charity is pregnant.",
+      "Ruth is pregnant."
+    ]
+  },
+  {
+    "id": 214,
+    "question": "Who does Charity marry in the end?",
+    "prediction": "The text does not explicitly state who Charity marries, but it is likely that she marries Mr. Royall based on the context, though this is not confirmed.",
+    "gold_answers": [
+      "Mr. Royall",
+      "Mr. Royall."
+    ]
+  },
+  {
+    "id": 215,
+    "question": "How does Charity feel about her life in North Dormer at first?",
+    "prediction": "Charity initially seems to accept her life in North Dormer but feels a sense of burden and longing for a different life, indicating a mix of resignation and dissatisfaction.",
+    "gold_answers": [
+      "She feels bored.",
+      "Charity is bored with life in North Dormer at first."
+    ]
+  },
+  {
+    "id": 216,
+    "question": "What does Charity do for a living?",
+    "prediction": "The passage does not explicitly state Charity's occupation, but she is seeking to become the librarian at the Hatchard library and mentions needing to earn money, implying she may not have a formal job.",
+    "gold_answers": [
+      "She is a librarian.",
+      "A librarian."
+    ]
+  },
+  {
+    "id": 217,
+    "question": "What does Mr.Royall do when he notices Charity getting closer to Harney?",
+    "prediction": "The text does not provide specific details about Mr. Royall's reaction when he notices Charity getting closer to Harney.",
+    "gold_answers": [
+      "He tells Harney that he can no longer with with him.",
+      "Get upset."
+    ]
+  },
+  {
+    "id": 218,
+    "question": "Where did Harney go after leaving Mr.Royall's home?",
+    "prediction": "The text does not provide information about where Harney went after leaving Mr. Royall's home.",
+    "gold_answers": [
+      "To a nearby village.",
+      "A nearby village."
+    ]
+  },
+  {
+    "id": 219,
+    "question": "Who was Mr.Rroyall accompanied by when Charity and Haney ran into him after the trip to Nettleton?",
+    "prediction": "The text does not provide information about who Mr. Royall was accompanied by in this scenario.",
+    "gold_answers": [
+      "He was accompanied by prostitutes.",
+      "Several prostitutes."
+    ]
+  },
+  {
+    "id": 220,
+    "question": "When did Harney and Charity kiss for the first time?",
+    "prediction": "Harney and Charity kissed for the first time in the obscurity, with Harney's lips pressed on hers and he holding her head against his breast.",
+    "gold_answers": [
+      "On the trip to Nettleton.",
+      "On a trip to Nettleton"
+    ]
+  },
+  {
+    "id": 221,
+    "question": "What did Charity tell Harney to do on the letter she wrote him when he left?",
+    "prediction": "The passage does not provide information about a letter Charity wrote to Harney when he left, so there is no information to answer the question.",
+    "gold_answers": [
+      "She told him to marry Annabel.",
+      "To marry Annabel."
+    ]
+  },
+  {
+    "id": 222,
+    "question": "Why does Charity go to Dr.Merkle?",
+    "prediction": "Charity goes to Dr. Merkle to settle her account or to seek financial assistance for the services provided by Dr. Merkle.",
+    "gold_answers": [
+      "She wasn't feeling well.",
+      "She has been feeling unwell."
+    ]
+  },
+  {
+    "id": 223,
+    "question": "What big news did Dr.Merkle confirm to Charity?",
+    "prediction": "Dr. Merkle confirmed to Charity that she had previously offered to see her for a lower fee, but now she is insisting on the full value of the brooch worth a hundred dollars, emphasizing the responsibility and insurance involved.",
+    "gold_answers": [
+      "That she was pregnant.",
+      "Charity is pregnant."
+    ]
+  },
+  {
+    "id": 224,
+    "question": "Why did Mr.Royall marry Charity?",
+    "prediction": "Mr. Royall did not marry Charity; he proposed to her, but she did not consent.",
+    "gold_answers": [
+      "To protect her because he knew she was pregnant.",
+      "To protect her"
+    ]
+  },
+  {
+    "id": 225,
+    "question": "What did Charity do for her job?",
+    "prediction": "Based on the information provided, Charity requested to be appointed as the librarian at the Hatchard library and expressed a desire to earn some money, indicating she was seeking a job.",
+    "gold_answers": [
+      "Librarian.",
+      "Charity was a librarian and ward of Mr. Royall."
+    ]
+  },
+  {
+    "id": 226,
+    "question": "Why did Mr. Royall want Harney to leave his home?",
+    "prediction": "Mr. Royall did not want Harney to leave his home; instead, his behavior during Harney's visit was curious and inquisitive.",
+    "gold_answers": [
+      "He noticed a closeness of him and Charity.",
+      "Mr. Royall notices his and Charity's growing closeness."
+    ]
+  },
+  {
+    "id": 227,
+    "question": "Why did Mr. Royall marry Chartiy?",
+    "prediction": "The passage does not explicitly state why Mr. Royall married Charity, but it suggests he may have done so to maintain his guardianship and care for her, possibly out of a sense of responsibility or to ensure her well-being.",
+    "gold_answers": [
+      "To protect her because she was pregnant.",
+      "He married her to protect her."
+    ]
+  },
+  {
+    "id": 228,
+    "question": "How did Chartiy reveal to Harney that she had married Mr. Royall?",
+    "prediction": "Charity revealed to Harney that she had married Mr. Royall by writing it in a letter to him, which included the unintended line \"I'll always remember you.\"",
+    "gold_answers": [
+      "In a letter.",
+      "She reveals that information to Harney in a letter."
+    ]
+  },
+  {
+    "id": 229,
+    "question": "What did Charity do when Mr. Royall gave her money for clothes?",
+    "prediction": "The passage does not provide specific information about what Charity did when Mr. Royall gave her money for clothes. However, given her financial dependence and the fear of displeasing Mr. Royall, it can be inferred that she was likely cautious and possibly saved the money or spent it in a way that would not attract his attention or disapproval.",
+    "gold_answers": [
+      "Went to the doctor to get her brooch back.",
+      "She takes it to Dr. Merkle to get her brooch back."
+    ]
+  },
+  {
+    "id": 230,
+    "question": "How did Charity pay for her doctor visit?",
+    "prediction": "Charity attempted to pay for her doctor visit with two twenty-dollar bills.",
+    "gold_answers": [
+      "With the brooch that Harney gave her.",
+      "She gave the doctor her brooch"
+    ]
+  },
+  {
+    "id": 231,
+    "question": "What did Charity learn while at the doctor?",
+    "prediction": "Charity learned that Dr. Merkle was aware of her marriage and was trying to convince her to return the brooch she had pawned, suggesting that her own mother would have done the same.",
+    "gold_answers": [
+      "That she was pregnant.",
+      "She is pregnant"
+    ]
+  },
+  {
+    "id": 232,
+    "question": "What happened to Charity's mother?",
+    "prediction": "Charity's mother died, and her body was lying on the floor where Charity was.",
+    "gold_answers": [
+      "She died.",
+      "Charity's mother dies."
+    ]
+  },
+  {
+    "id": 233,
+    "question": "What did Charity realize once on the mountain?",
+    "prediction": "Charity realized that she would be alone on the Mountain when her mother was dying.",
+    "gold_answers": [
+      "That she did not want to raise her child in poverty.",
+      "She sees the adject poverty and resolves not to raise her child there."
+    ]
+  },
+  {
+    "id": 234,
+    "question": "Who was Harney engaged to?",
+    "prediction": "Harney was engaged to Annabel Balch.",
+    "gold_answers": [
+      "Annabel.",
+      "Annabel Balch."
+    ]
+  },
+  {
+    "id": 235,
+    "question": "What was the robbery about?",
+    "prediction": "The robbery being discussed is a bank robbery, where the robbers were involved in a planned but ultimately abandoned bank job.",
+    "gold_answers": [
+      "Diamond heist",
+      "The robbery was about stealing a bunch of diamonds."
+    ]
+  },
+  {
+    "id": 236,
+    "question": "How many of the men uses aliases?",
+    "prediction": "5 men use aliases.",
+    "gold_answers": [
+      "Six",
+      "six"
+    ]
+  },
+  {
+    "id": 237,
+    "question": "Who planned the robbery?",
+    "prediction": "The passage does not directly state who planned the robbery, but it suggests that the operation is aimed at catching Joe Cabot during the robbery, implying he or his associates were involved in planning it.",
+    "gold_answers": [
+      "Eddie Cabot",
+      "Joe and Eddie Cabit"
+    ]
+  },
+  {
+    "id": 238,
+    "question": "Where did men went after the robbery?",
+    "prediction": "The scripts do not provide information on where the men went after the robbery.",
+    "gold_answers": [
+      "Joe's warehouse.",
+      "One of Joe's warehouses"
+    ]
+  },
+  {
+    "id": 239,
+    "question": "What was Orange truth identity?",
+    "prediction": "Mr. Orange's true identity is that of a police informant who has been working with the police to set up the other characters.",
+    "gold_answers": [
+      "undercover police officer",
+      "a police officer"
+    ]
+  },
+  {
+    "id": 240,
+    "question": "Who hide the diamond?",
+    "prediction": "The passage does not provide information on who hid the diamond.",
+    "gold_answers": [
+      "Pink",
+      "Pink hid the diamonds nearby."
+    ]
+  },
+  {
+    "id": 241,
+    "question": "Wnat was the name of policeman that was kidnapped?",
+    "prediction": "The name of the kidnapped policeman is not clearly stated in the given scripts.",
+    "gold_answers": [
+      "Marvin Nash",
+      "Marvin Nash"
+    ]
+  },
+  {
+    "id": 242,
+    "question": "Why did Orange shot Blonde?",
+    "prediction": "Mr. Orange shot Mr. Blonde because Mr. Blonde became violent and was going to burn the cop alive.",
+    "gold_answers": [
+      "Blonde was going to set Nash on fire.",
+      "Because Blonde tried to set Nash on fire."
+    ]
+  },
+  {
+    "id": 243,
+    "question": "Who ran away with the diamonds?",
+    "prediction": "The script does not provide a definitive answer on who ran away with the diamonds.",
+    "gold_answers": [
+      "Pink",
+      "Pink."
+    ]
+  },
+  {
+    "id": 244,
+    "question": "Why did white pointed his gun at Orange head?",
+    "prediction": "Mr. White pointed his gun at Mr. Orange's head because Mr. Orange admitted he is a cop and had lied about the events, indicating he was part of the police setup. This revelation led Mr. White to conclude that Mr. Orange was a traitor and needed to be eliminated to protect the group.",
+    "gold_answers": [
+      "Orange told White he is an undercover  policeman.",
+      "To kill him before the cops arrive."
+    ]
+  },
+  {
+    "id": 245,
+    "question": "What is Eddie Cabot's nickname?",
+    "prediction": "Nice Guy Eddie.",
+    "gold_answers": [
+      "His nickname is \"Nice Guy\".",
+      "\"Nice Guy.\""
+    ]
+  },
+  {
+    "id": 246,
+    "question": "Which man is angry and thinks the job is a set up?",
+    "prediction": "Mr. Pink is the man who is angry and thinks the job is a set up.",
+    "gold_answers": [
+      "Mr. Pink believes the cops are involved and that the diamond heist is a setup.",
+      "Pink"
+    ]
+  },
+  {
+    "id": 247,
+    "question": "White informs Pink that who has died?",
+    "prediction": "Brown has died.",
+    "gold_answers": [
+      "Mr. Brown had been killed.",
+      "Brown is dead."
+    ]
+  },
+  {
+    "id": 248,
+    "question": "Who is Marvin Nash?",
+    "prediction": "Marvin Nash is not mentioned in the provided scripts.",
+    "gold_answers": [
+      "the kidnapped police man.",
+      "A kidnapped policeman"
+    ]
+  },
+  {
+    "id": 249,
+    "question": "Who does Eddie leave in charge of Nash and Orange?",
+    "prediction": "Mr. Pink and Mr. White are left in charge of Mr. Orange and Mr. Blonde.",
+    "gold_answers": [
+      "Eddie leaves Mr. Blonde in charge.",
+      "Blonde"
+    ]
+  },
+  {
+    "id": 250,
+    "question": "What does Blonde cut off of Nash?",
+    "prediction": "Nash's ear.",
+    "gold_answers": [
+      "Blonde cuts off his ear.",
+      "His ear"
+    ]
+  },
+  {
+    "id": 251,
+    "question": "How does Nash die?",
+    "prediction": "The information provided does not contain details about Nash's death.",
+    "gold_answers": [
+      "Mr. Orange shoots Nash.",
+      "He's set on fire"
+    ]
+  },
+  {
+    "id": 252,
+    "question": "Who ends up getting the diamonds?",
+    "prediction": "Mr. Pink ends up getting the diamonds.",
+    "gold_answers": [
+      "Mr. Pink takes the diamonds and flees.",
+      "Pink"
+    ]
+  },
+  {
+    "id": 253,
+    "question": "How does Eddie Cabot Die?",
+    "prediction": "Eddie Cabot does not die in the provided scripts.",
+    "gold_answers": [
+      "Eddie dies in a Mexican Standoff.",
+      "He is shot in a standoff."
+    ]
+  },
+  {
+    "id": 254,
+    "question": "Who kills Mr. White?",
+    "prediction": "Mr. Orange kills Mr. White.",
+    "gold_answers": [
+      "The police who found White and Orange.",
+      "The police"
+    ]
+  },
+  {
+    "id": 255,
+    "question": "What are the eight men doing before the diamond heist?",
+    "prediction": "The eight men are planning the heist, surrounding the perimeter of the jewelry store, having a couple posing as shoppers, staking out the jewelry store in a car, and handling customers and employees in the display area.",
+    "gold_answers": [
+      "They are eating breakfast at a local Los Angeles diner.",
+      "They were eating at a diner."
+    ]
+  },
+  {
+    "id": 256,
+    "question": "Who are the two men that do not use aliases?",
+    "prediction": "Eddie and Joe are the two men who do not use aliases.",
+    "gold_answers": [
+      "The mob boss, Joe Cabot, and his son, Eddie Cabot.",
+      "Joe Cabot and Marvin Nash"
+    ]
+  },
+  {
+    "id": 257,
+    "question": "Who does Blonde bring to the rendezvous point?",
+    "prediction": "Mr. Blonde brings a handcuffed, uniformed policeman to the rendezvous point.",
+    "gold_answers": [
+      "Marvin Nash, a policeman who they kidnapped.",
+      "Marvin Nash, a kidnapped policeman."
+    ]
+  },
+  {
+    "id": 258,
+    "question": "When Blonde resumes torturing Nash, what does he do to try to get more information?",
+    "prediction": "Mr. Blonde does not try to get more information from the cop. He continues torturing the cop for amusement, as he previously stated that he tortures cops because \"torturing a cop amuses me.\"",
+    "gold_answers": [
+      "Blonde cuts off Nash's right ear with a straight razor.",
+      "Cutting off his ear with a straight razor."
+    ]
+  },
+  {
+    "id": 259,
+    "question": "What prevents Blonde from setting Nash on fire?",
+    "prediction": "The passage does not provide information about what prevents Blonde from setting Nash on fire. The context suggests that the situation is tense, but no specific action by Blonde to prevent such an event is described.",
+    "gold_answers": [
+      "Orange shoots Blonde.",
+      "Orange kills him by gun."
+    ]
+  },
+  {
+    "id": 260,
+    "question": "What does Orange turn out to be?",
+    "prediction": "Mr. Orange turns out to be a wounded and critically injured character in the film \"Reservoir Dogs,\" who is trying to negotiate with his fellow criminals for help and to avoid being left behind.",
+    "gold_answers": [
+      "An undercover cop.",
+      "a police officer"
+    ]
+  },
+  {
+    "id": 261,
+    "question": "After discovering Blonde is dead, what does Orange tell Eddie, White and Pink about what happened?",
+    "prediction": "Mr. Orange tells Eddie, White, and Pink that he lied and shot Blonde because he didn't like his hairstyle. He also admits that he was lying and that he was pulling a fast one.",
+    "gold_answers": [
+      "Orange tells them that Blonde was planning to kill them and steal all of the diamonds.",
+      "Blonde was trying to kill them and take the diamonds for himself"
+    ]
+  },
+  {
+    "id": 262,
+    "question": "What happens when Joe finds out about Orange and attempts to execute Orange?",
+    "prediction": "Joe fires three shots at Mr. Orange, hitting him, and Mr. White immediately shoots Joe twice in the face, causing Joe to fall and die. Eddie then shoots Mr. White three times, and Mr. White shoots and kills Eddie. Mr. Orange is left alive but severely injured.",
+    "gold_answers": [
+      "White interrupts and holds Joe at gunpoint.",
+      "White intervenes and holds him at gunpoint"
+    ]
+  },
+  {
+    "id": 263,
+    "question": "What happens after the people involved in the Mexican standoff shoot?",
+    "prediction": "The script does not describe any further shooting after the Mexican standoff.",
+    "gold_answers": [
+      "The Cabots are both killed and White and Orange are severely wounded.",
+      "both Cabots are killed and White and Orange are wounded"
+    ]
+  },
+  {
+    "id": 264,
+    "question": "What does Pink end up doing after the Cabots are killed?",
+    "prediction": "The provided scripts do not contain information about Pink's actions after the Cabots are killed.",
+    "gold_answers": [
+      "He flees, taking the diamonds with him.",
+      "He flees"
+    ]
+  },
+  {
+    "id": 265,
+    "question": "In which city does the story take place?",
+    "prediction": "New York City.",
+    "gold_answers": [
+      "In New York City",
+      "New York"
+    ]
+  },
+  {
+    "id": 266,
+    "question": "What illness does LeTour suffer from?",
+    "prediction": "LeTour suffers from insomnia.",
+    "gold_answers": [
+      "Insomnia",
+      "He has insomnia. "
+    ]
+  },
+  {
+    "id": 267,
+    "question": "What other line of work does Ann think about changing to?",
+    "prediction": "Ann thinks about changing to the cosmetics business.",
+    "gold_answers": [
+      "Cosmetics",
+      "cosmetics"
+    ]
+  },
+  {
+    "id": 268,
+    "question": "What happens to Marianne's mother while she is with LeTour?",
+    "prediction": "The script does not provide information about what happens to Marianne's mother while she is with LeTour.",
+    "gold_answers": [
+      "She dies in a hospital",
+      "she dies"
+    ]
+  },
+  {
+    "id": 269,
+    "question": "Why do the police start obsersving LeTour?",
+    "prediction": "The police start observing LeTour because he is acting suspiciously and trying to avoid them, as evidenced by his disconnected beeper and lack of reaction to the approaching police.",
+    "gold_answers": [
+      "One of his clients Tis is connected to the death of a young woman.",
+      "because he delivers to Tis who is involved in the drug-related death of a young woman"
+    ]
+  },
+  {
+    "id": 270,
+    "question": "How does Marianne die?",
+    "prediction": "Marianne does not die in the provided script.",
+    "gold_answers": [
+      "By falling to her death.",
+      "Falling several stories"
+    ]
+  },
+  {
+    "id": 271,
+    "question": "Who tells the police of Marianne's last whereabouts?",
+    "prediction": "The script does not provide information about who tells the police of Marianne's last whereabouts.",
+    "gold_answers": [
+      "LeTour",
+      "John LeTour"
+    ]
+  },
+  {
+    "id": 272,
+    "question": "What is LeTour's reaction to being critically wounded?",
+    "prediction": "The script does not provide LeTour's reaction to being critically wounded.",
+    "gold_answers": [
+      "Weariness",
+      "He lies down on the hotel bed, showing no pain or anger."
+    ]
+  },
+  {
+    "id": 273,
+    "question": "What is LeTour's attitude when Ann visits him in jail?",
+    "prediction": "LeTour's attitude when Ann visits him in jail is one of concern, affection, and a strong emotional connection.",
+    "gold_answers": [
+      "Hopeful for the future, relief that she is alive.",
+      "relief and hope"
+    ]
+  },
+  {
+    "id": 274,
+    "question": "Who orders LeTour to deliver a new supply of drugs?",
+    "prediction": "The script does not provide information about who orders LeTour to deliver a new supply of drugs.",
+    "gold_answers": [
+      "Tis",
+      "Tis"
+    ]
+  },
+  {
+    "id": 275,
+    "question": "Where does LeTour live?",
+    "prediction": "The script does not provide information about where LeTour lives.",
+    "gold_answers": [
+      "New York",
+      "New York"
+    ]
+  },
+  {
+    "id": 276,
+    "question": "What job does LeTour have?",
+    "prediction": "LeTour's job is not explicitly mentioned, but he appears to be involved in emergency medical services (EMS) or a related field.",
+    "gold_answers": [
+      "Delivery man",
+      "He is a delivery man for Ann."
+    ]
+  },
+  {
+    "id": 277,
+    "question": "Who is Ann?",
+    "prediction": "Ann is a character who has been working in a risky, possibly criminal lifestyle for a long time, avoiding legal trouble. She has a cosmetics line and is involved with a group of people who are aware of her past and current activities. Her life has had a period of glamour but has since declined due to drug use.",
+    "gold_answers": [
+      "John Le Tour's boss",
+      "A woman who supplies drugs to people"
+    ]
+  },
+  {
+    "id": 278,
+    "question": "How old is John?",
+    "prediction": "John is forty years old.",
+    "gold_answers": [
+      "40",
+      "40 years old"
+    ]
+  },
+  {
+    "id": 279,
+    "question": "What is John's frame of mind in the story?",
+    "prediction": "John's frame of mind in the story appears to be one of struggle and a search for direction. He seems to be homeless and trying to maintain connections, possibly through writing and making phone calls, while feeling that his life is in a state of transition.",
+    "gold_answers": [
+      "He has lost his perspective on Life",
+      "He is sad and disillusioned with life."
+    ]
+  },
+  {
+    "id": 280,
+    "question": "What happens to Marianne?",
+    "prediction": "Marianne is leaving the hospital and parting ways with Létour, suggesting a significant emotional and possibly physical separation.",
+    "gold_answers": [
+      "Heavily drugged, she fall several stories to her death",
+      "She falls to her death"
+    ]
+  },
+  {
+    "id": 281,
+    "question": "Why do the police start watching John?",
+    "prediction": "The exact reason why the police start watching John is not provided in the given scripts, but it is implied that he might be involved in a case or has information that the police are interested in.",
+    "gold_answers": [
+      "Because a client Tis is involved in a woman's death",
+      "Because one of his clients was connected to the death of a young woman."
+    ]
+  },
+  {
+    "id": 282,
+    "question": "Who accompanies John when Tis orders a new supply?",
+    "prediction": "The question cannot be answered based on the provided information.",
+    "gold_answers": [
+      "Ann",
+      "Anne"
+    ]
+  },
+  {
+    "id": 283,
+    "question": "As John lies on the bed at the end, what does he hear?",
+    "prediction": "The script does not provide information about what John hears as he lies on a bed.",
+    "gold_answers": [
+      "Police sirens",
+      "police sirens"
+    ]
+  },
+  {
+    "id": 284,
+    "question": "Who is the protagonist in this story? ",
+    "prediction": "The information provided is insufficient to determine the protagonist of the story.",
+    "gold_answers": [
+      "John LeTour",
+      "John Le Tour. "
+    ]
+  },
+  {
+    "id": 285,
+    "question": "Why does Marianne not like LeTour after their night together? ",
+    "prediction": "Marianne does not like LeTour after their night together because she has decided to end their relationship and move on, as evidenced by her insistence on distance, her determination to leave, and her clear statement that it will never happen again.",
+    "gold_answers": [
+      "Her mother died while they were together and she did not say goodbye",
+      "Her mother dies"
+    ]
+  },
+  {
+    "id": 286,
+    "question": "Which sectors does LeTour deliver drugs to? ",
+    "prediction": "The provided scripts do not specify the sectors to which LeTour delivers drugs.",
+    "gold_answers": [
+      "Banking and Financing ",
+      "To the banking and financial sectors. "
+    ]
+  },
+  {
+    "id": 287,
+    "question": "What does LeTour suffer from? ",
+    "prediction": "LeTour suffers from insomnia or difficulty sleeping.",
+    "gold_answers": [
+      "Insomnia",
+      "Insomnia"
+    ]
+  },
+  {
+    "id": 288,
+    "question": "Who is Randi? ",
+    "prediction": "Randi is a character who is visiting her mother, Mrs. Jost, in the hospital. She is concerned about her mother's condition and is present during her chemotherapy. Randi is also preparing for her mother's funeral the next day.",
+    "gold_answers": [
+      "Marianne's sister",
+      "Marianne's sister"
+    ]
+  },
+  {
+    "id": 289,
+    "question": "Who does LeTour kill? ",
+    "prediction": "Based on the given scripts, LeTour does not kill anyone.",
+    "gold_answers": [
+      "Tis and his henchmen",
+      "Tis and Tis's henchmen. "
+    ]
+  },
+  {
+    "id": 290,
+    "question": "What does LeTour do for a living? ",
+    "prediction": "LeTour works as an EMS worker or ambulance driver for St. Luke's EMS.",
+    "gold_answers": [
+      "Delivers drugs",
+      "delivers drugs for Ann"
+    ]
+  },
+  {
+    "id": 291,
+    "question": "Who is Ann? ",
+    "prediction": "Ann is a character involved in a risky and possibly illegal lifestyle, with a history of working in a field that includes drug use and potential criminal activities. She is also a businesswoman, possibly involved in a cosmetics line, and has a complex social circle that includes individuals who are both supportive and critical of her.",
+    "gold_answers": [
+      "LeTour's boss",
+      "A drug supplier for clientele in the banking and financial sector."
+    ]
+  },
+  {
+    "id": 292,
+    "question": "How does Marianne die? ",
+    "prediction": "Marianne does not die in the provided script.",
+    "gold_answers": [
+      "Falls several stories",
+      "She falls several stories to her death."
+    ]
+  }
+]
