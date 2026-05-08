@@ -1,0 +1,15 @@
+{
+  "F1": 3.3584118082339653,
+  "EM": 0.0,
+  "ROUGE-L": 3.160392006253767,
+  "BLEU-1": 1.743894836193311,
+  "BLEU-4": 0.0,
+  "METEOR": 13.012073510476757,
+  "index_time_s": 0.3610680103302002,
+  "qa_time_s": 31.711798429489136,
+  "llm": "gpt-4.1-mini",
+  "embedding": "sentence-transformers/multi-qa-mpnet-base-cos-v1",
+  "dataset": "narrativeqa_dev_10_doc",
+  "n_queries": 10,
+  "n_passages": 4111
+}

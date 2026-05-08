@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+    "question": "What is Mary Horowitz's job?",
+    "prediction": "### Content Understanding\nThe text centers on Mary Horowitz, a socially awkward but intelligent woman who constructs crossword puzzles. She works for the Atlanta Citizen newspaper and is passionate about her job despite facing social challenges and skepticism from others.\n\n### Relevant Information Analysis\n- Mary Horowitz is a crossword puzzle constructor.\n- She creates crossword puzzles for the Atlanta Citizen newspaper.\n- She explains her job involves making words fit together, crafting clues, and ensuring puzzle symmetry.\n- Mary constructs one crossword puzzle a week.\n- Her job requires intelligence, broad knowledge, and good spelling.\n- She faces deadlines, stress, and demands in her work.\n- Mary presented her job at a school Career Day.\n- The newspaper business is described as \"hell,\" indicating the pressure she endures.\n\n### Key Facts\n- Mary Horowitz's job: crossword puzzle constructor\n- Employer: Atlanta Citizen newspaper\n- Frequency: one puzzle per week\n- Job involves: creating puzzles, writing clues, ensuring design symmetry\n\n### Final Answer\nCrossword puzzle constructor.",
+    "gold_answers": [
+      "She is a crossword puzzle writer.",
+      "She is a crossword writer for the Sacramento Herald."
+    ]
+  },
+  {
+    "id": 1,
+    "question": "Who is Mary's blind date, and what is his job?",
+    "prediction": "### Content Understanding  \nThe content provides multiple references to Mary’s blind dates, with different names and contexts, but the clearest and most consistent identification is Steve Hughes, who is described as a cameraman. The narrative highlights Steve’s role in media coverage and his interactions with Mary during a tense event.\n\n### Relevant Information Analysis  \n- Mary’s blind date is named Steve Hughes.  \n- Steve Hughes works as a cameraman.  \n- Steve is involved in covering a hostage situation at a Medieval Times dinner theater.  \n- Mary and Steve’s relationship is framed as a blind date.  \n- Steve’s job is central to the narrative and his character.  \n- Other names like Norman James Durwood and Jim Kurring appear but with less clarity or conflicting details about their jobs.  \n- The most definitive and detailed job description is for Steve Hughes as a cameraman.\n\n### Key Facts  \n- Mary’s blind date: Steve Hughes  \n- Steve Hughes’s job: Cameraman\n\n### Final Answer  \nSteve Hughes, cameraman",
+    "gold_answers": [
+      "Steve Miller, he is a cameraman",
+      "Steve Miller, a cameraman."
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is Steve's excuse to not see Mary?",
+    "prediction": "### Content Understanding\nThe narrative involves Mary and Steve, who share a complicated relationship amid tense and chaotic circumstances. Steve is reluctant or hesitant about Mary’s presence or attention, and there are moments where he tries to avoid or hide from her.\n\n### Relevant Information Analysis\n- Steve is surprised and somewhat reluctant when Mary approaches him.\n- Steve says \"Please God, no\" when Mary runs toward him.\n- Steve looks for a place to hide from Mary.\n- Steve questions Mary’s reason for coming all the way to see him.\n- Steve expresses disbelief or frustration about the situation.\n- Steve says \"No, we’re not\" in response to Mary’s statement about their relationship.\n- Steve is involved in a dangerous or stressful situation (hostage, storm, or chaotic event).\n- Mary insists she came to Dallas looking for Steve.\n- Steve’s excuse is not explicitly a direct refusal but shows reluctance and surprise.\n\n### Key Facts\n- Steve’s excuse is essentially his surprise and reluctance, expressed as \"Please God, no\" and looking for a place to hide.\n- Steve questions Mary’s reason for coming all the way to see him.\n- Steve says \"No, we’re not\" in response to Mary’s romantic assertion.\n\n### Final Answer\nPlease God, no.",
+    "gold_answers": [
+      "Fake a phone call about covering a story out of town.",
+      "He claims he is needed to cover a story out of town."
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Why did Mary get fired?",
+    "prediction": "### Content Understanding\nThe narrative describes Mary Horowitz's role as a crossword puzzle constructor and her interactions at the Atlanta Citizen newspaper. It culminates in her being fired due to a problematic crossword puzzle she submitted.\n\n### Relevant Information Analysis\n- Mary created a crossword puzzle for the Atlanta Citizen.\n- The puzzle was unusual and difficult, causing confusion and dissatisfaction among readers.\n- The editor, Soloman, confronted Mary about the puzzle.\n- Every answer in the crossword was the word \"Steve.\"\n- Soloman called the puzzle unprofessional and alienating to readers.\n- Mary was offered to make a fishing-themed puzzle to make amends, but the editor declined.\n- Mary was let go from her job.\n\n### Key Facts\n- Mary’s crossword puzzle had every answer as \"Steve.\"\n- The editor considered the puzzle unprofessional and alienating.\n- This led to Mary being fired.\n\n### Final Answer\nBecause every answer in her crossword was \"Steve.\"",
+    "gold_answers": [
+      "She created a crossword titled \"All About Steve\".",
+      "She created a crossword entirely about Steve."
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Who does Mary cross the country with?",
+    "prediction": "### Content Understanding\nThe narrative follows Mary Horowitz, a crossword puzzle constructor, as she embarks on a journey across the country. Along the way, she interacts with various characters, including Elizabeth and Howard, who join her on the trip.\n\n### Relevant Information Analysis\n- Mary talks on the phone inviting Elizabeth to join her on the trip.\n- Elizabeth agrees to go with Mary.\n- Howard also offers to join and has a car.\n- Howard drives a Plymouth Colt, year eighty-nine.\n- Mary and Howard run through the crowd together.\n- Elizabeth and Howard are mentioned as companions on the trip.\n\n### Key Facts\n- Mary crosses the country with Elizabeth and Howard.\n- Howard has a car and drives them.\n\n### Final Answer\nElizabeth and Howard",
+    "gold_answers": [
+      "Elizabeth and Howard",
+      "Norm, Elizabeth, and Howard."
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Who is trapped in the mine collapse?",
+    "prediction": "### Content Understanding\nThe narrative describes a mine collapse where several children, including a deaf boy and Mary Horowitz, become trapped. The story details the rescue efforts and the dangerous conditions inside the abandoned mine.\n\n### Relevant Information Analysis\n- Children, including hearing impaired kids, fall into an abandoned mine.\n- The kids are described as coal dust covered but unharmed initially.\n- Mary Horowitz is trapped in the mine.\n- Mary talks to a little girl inside the mine.\n- The mine is abandoned, with poor air quality and structural instability.\n- Rescue efforts are ongoing but perilous.\n\n### Key Facts\n- Trapped individuals: children (including hearing impaired kids) and Mary Horowitz.\n- Mary Horowitz is explicitly mentioned as trapped in the mine.\n- The children are described as being inside the mine shaft.\n\n### Final Answer\nMary Horowitz and children.",
+    "gold_answers": [
+      "Deaf children.",
+      "deaf children"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Who rescues the one remaining deaf child?",
+    "prediction": "### Content Understanding\nThe narrative describes a rescue operation at a mine shaft where a group of hearing-impaired children were trapped. The rescue is covered extensively by media, and the children are eventually saved.\n\n### Relevant Information Analysis\n- The children trapped in the mine shaft are hearing impaired.\n- Rescuers and firemen are involved in the rescue operation.\n- A smiling little face of one of the children is carried up by a fireman.\n- The rescuers cheer and the teachers cry upon the children's rescue.\n- The rescue site is heavily guarded and covered by media.\n- Mary Horowitz falls into the mine, prompting a large rescue effort.\n\n### Key Facts\n- The one remaining deaf child is rescued by a fireman.\n\n### Final Answer\nFireman",
+    "gold_answers": [
+      "Mary, after falling in.",
+      "Steve"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Who gets the credit for saving the child?",
+    "prediction": "### Content Understanding\nThe narrative includes a dramatic rescue at a mine shaft where a child is trapped and later saved. Mary Horowitz is involved in the rescue efforts and is recognized by media figures for her role.\n\n### Relevant Information Analysis\n- A child was trapped in a mine shaft and was eventually rescued by firemen and rescuers.\n- Mary Horowitz is mentioned as having intentionally entered the mine to save a hearing-impaired child who was initially overlooked.\n- Media coverage, including Nancy Grace on CNN Headline News, calls Mary Horowitz an \"American hero.\"\n- The rescue site is heavily covered by local media and police.\n- The child is confirmed conscious and expected to survive after the rescue.\n\n### Key Facts\n- Mary Horowitz intentionally entered the mine to save the child.\n- Nancy Grace calls Mary Horowitz an \"American hero.\"\n- The child was rescued by firemen and rescuers with Mary’s involvement highlighted.\n\n### Final Answer\nMary Horowitz",
+    "gold_answers": [
+      "Hartman Hughes.",
+      "Hartman"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Who fell into the mine to save mary?",
+    "prediction": "### Content Understanding\nThe narrative explains that Mary Horowitz fell into the abandoned mine herself while attempting to rescue a hearing-impaired child. No other person is described as falling into the mine to save Mary.\n\n### Relevant Information Analysis\n- Mary Horowitz fell into the mine during a rescue attempt.\n- Mary was trying to save a hearing-impaired child who had been missed.\n- No other individual is mentioned as falling into the mine to save Mary.\n- Media and commentators describe Mary as a hero for her selfless act.\n- Rescue efforts focused on extracting Mary after her fall.\n\n### Key Facts\n- Mary fell into the mine while trying to save a child.\n- No one else fell into the mine to save Mary.\n\n### Final Answer\nMary Horowitz.",
+    "gold_answers": [
+      "Hartman",
+      "Hartman Hughes, a tv reporter."
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What can Mary not stop talking about?",
+    "prediction": "### Content Understanding\nThe narrative centers on Mary Horowitz, a crossword puzzle constructor, who is socially awkward but passionate about her work and personal life. Throughout the text, Mary is shown to be emotionally invested in her relationship with Steve and her crossword puzzles.\n\n### Relevant Information Analysis\n- Mary is deeply involved in creating crossword puzzles and discusses them frequently.\n- She is emotionally affected by her relationship with Steve, often thinking and talking about him.\n- Mary celebrates the word \"serendipity\" and shouts it into her pillow.\n- Mary creates a crossword puzzle where every answer is the word \"Steve.\"\n- She is described as unable to stop talking about Steve, especially after their night together.\n- Mary expresses optimism about Steve being \"the one.\"\n- Her crossword puzzle obsession and her feelings for Steve dominate her conversations.\n\n### Key Facts\n- Mary cannot stop talking about Steve.\n- She creates a crossword puzzle filled with the word \"Steve.\"\n- She expresses that sometimes all it takes is a moment to know \"he’s the one.\"\n\n### Final Answer\nSteve",
+    "gold_answers": [
+      "Vocabulary.",
+      "Vocabulary"
+    ]
+  }
+]
