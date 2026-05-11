@@ -14,10 +14,14 @@ import time
 import subprocess
 import signal
 import logging
+from pathlib import Path
 
-sys.path.insert(0, '/content/drive/MyDrive/HippoRAG')
-sys.path.insert(0, '/content/drive/MyDrive/raptor')
-sys.path.insert(0, '/content/drive/MyDrive/HippoRAG/experiments')
+_HERE = Path(__file__).resolve().parent              # rag_test/experiments
+sys.path.insert(0, str(_HERE.parent))                # rag_test root → utils.paths
+from utils.paths import get_external_path, get_data_path   # noqa: E402
+sys.path.insert(0, get_external_path("hipporag"))
+sys.path.insert(0, get_external_path("raptor"))
+sys.path.insert(0, str(_HERE))                       # rag_test/experiments  (eval_metrics)
 
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -30,9 +34,9 @@ LLM_MODEL = "Qwen/Qwen2.5-7B-Instruct"
 LLM_BASE_URL = "http://localhost:8000/v1"
 EMBEDDING_NAME = "Transformers/sentence-transformers/multi-qa-mpnet-base-cos-v1"
 DATASET_NAME = "narrativeqa_dev_10_doc"
-DATA_DIR = "/content/drive/MyDrive/HippoRAG/reproduce/dataset"
-HIPPO_SAVE_DIR = "/content/drive/MyDrive/HippoRAG/experiments/exp-001-hipporag2-narrativeqa/results"
-RAPTOR_SAVE_DIR = "/content/drive/MyDrive/HippoRAG/experiments/exp-002-raptor-narrativeqa/results"
+DATA_DIR = get_data_path()                                            # rag_test/reproduce/dataset
+HIPPO_SAVE_DIR  = str(_HERE / "exp-001-hipporag2-narrativeqa" / "results")
+RAPTOR_SAVE_DIR = str(_HERE / "exp-002-raptor-narrativeqa"   / "results")
 
 
 def start_vllm_server(gpu_util=0.5):

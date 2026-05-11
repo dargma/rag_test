@@ -1,17 +1,25 @@
-openai==1.91.1
-litellm==1.73.1
-vllm==0.6.6.post1
-gritlm==1.0.2
-torch==2.5.1
-transformers==4.45.2
-networkx==3.4.2
-pydantic==2.10.4
-python_igraph==0.11.8
-tenacity==8.5.0
-tiktoken==0.7.0
-nest_asyncio
-numpy
-scipy
+# rag_test orchestrator dependencies — wrappers + shared evaluator + scripts.
+# The four upstream RAG systems (HippoRAG, RAPTOR, ComoRAG, A-RAG) carry their
+# own deps; `scripts/setup_env.sh` `pip install -e .`'s each of them after
+# cloning, which pulls in their full dependency closures.
+
+# OpenAI client used by all four wrappers
+openai>=1.30
+
+# Shared evaluator (token-F1 / EM / ROUGE-L / BLEU / METEOR)
+rouge-score>=0.1.2
+nltk>=3.8
+sacrebleu>=2.4
+
+# Retrieval embedder for ComoRAG patch + A-RAG SBERT routing
+sentence-transformers>=2.7
+
+# Path resolver + YAML overrides
+pyyaml>=6.0
+
+# Tokenisation helpers used in evaluator + wrappers
+tiktoken>=0.6
+
+# Misc
 tqdm
-einops
-boto3
+numpy

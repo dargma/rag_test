@@ -1,0 +1,22 @@
+llm:
+  temperature: 0.0
+  max_tokens: 16384
+  # reasoning_effort: "medium"  # only for reasoning models (o1, gpt-5), not gpt-4.1-mini
+
+embedding:
+  model: "sentence-transformers/multi-qa-mpnet-base-cos-v1"
+  device: "cpu"
+  batch_size: 16
+
+agent:
+  max_loops: 15
+  max_token_budget: 128000
+  verbose: false
+
+data:
+  chunks_file: "data/narrativeqa/chunks.json"
+  questions_file: "data/narrativeqa/questions.json"
+  index_dir: "data/narrativeqa/index"
+
+output:
+  results_dir: "results/narrativeqa/"

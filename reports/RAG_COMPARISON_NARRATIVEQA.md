@@ -1,8 +1,8 @@
-# Long-Context RAG Comparison: HippoRAG 2 vs RAPTOR vs ComoRAG on NarrativeQA
+# Long-Context RAG Comparison: HippoRAG 2 vs RAPTOR vs ComoRAG vs A-RAG on NarrativeQA
 
-**Date**: 2026-05-08
+**Date**: 2026-05-08 (last updated **2026-05-11** — added A-RAG row)
 **Author**: Auto-Research System
-**Goal**: Locate ComoRAG's position vs HippoRAG 2 / RAPTOR for long-context narrative reasoning under fair (paper-friendly) conditions.
+**Goal**: Locate ComoRAG's position vs HippoRAG 2 / RAPTOR for long-context narrative reasoning under fair (paper-friendly) conditions. **Update 2026-05-11**: added agentic-RAG entrant (A-RAG) for completeness — fair-matched (SBERT + GPT-4.1-mini, same 4,111-passage 140-tok corpus, same eval metrics).
 
 ---
 
@@ -91,19 +91,20 @@ Gold answers: ["She created a crossword titled \"All About Steve\".",
 | **HippoRAG 2** | Knowledge-graph RAG with Personalized PageRank retrieval and IRCoT multi-step reasoning | ICML 2025 |
 | **RAPTOR** | Hierarchical recursive summarization tree built bottom-up via GMM+UMAP clustering | ICLR 2024 |
 | **ComoRAG** | Cognitive-inspired memory-organized RAG with iterative probing + 3-tier memory pool | arXiv 2025-08 |
+| **A-RAG** | Agentic RAG: stateless ReAct loop over three retrieval tools (`keyword_search`, `semantic_search`, `read_chunk`) | arXiv 2026-02 |
 
 ### 2.2 Side-by-Side Feature Comparison
 
-| Aspect | HippoRAG 2 | RAPTOR | ComoRAG |
-|---|---|---|---|
-| **Paper** | "From RAG to Memory" ([arXiv:2502.14802](https://arxiv.org/abs/2502.14802)) | "RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval" ([arXiv:2401.18059](https://arxiv.org/abs/2401.18059)) | "ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning" ([arXiv:2508.10419](https://arxiv.org/abs/2508.10419)) |
-| **GitHub** | [OSU-NLP-Group/HippoRAG](https://github.com/OSU-NLP-Group/HippoRAG) | [parthsarthi03/raptor](https://github.com/parthsarthi03/raptor) | [EternityJune25/ComoRAG](https://github.com/EternityJune25/ComoRAG) |
-| **Index structure** | Knowledge graph (entities + triples + sim-passage edges) | Recursive summary tree (leaves → cluster summaries → … → root) | KG + clustered chunk graph + 3-tier memory pool |
-| **Indexing primitive** | OpenIE (NER + relation extraction) via LLM | GMM + UMAP clustering, recursive LLM summarization | OpenIE + clustering + memory node initialization |
-| **Retrieval** | **Personalized PageRank** over KG, top-k=200, then linker top-k=5 | Collapsed-tree top-k=10 (leaves + summaries together) | KG retrieval + memory-pool similarity retrieval |
-| **QA reasoning** | **IRCoT** multi-step (max 3 iterations), qa_top_k=5 | **Single-step** generation over retrieved leaves/summaries | **Iterative meta-loop** (max 5): probing query → evidence consolidation → memory update → resolve |
-| **Memory state** | Stateless across queries | Stateless across queries | **3-tier memory** (verbatim / semantic / episodic) — stateful within a query |
-| **Inspiration** | Hippocampus / long-term memory neuroscience | Hierarchical summarization | Cognitive memory consolidation cycles |
+| Aspect | HippoRAG 2 | RAPTOR | ComoRAG | A-RAG |
+|---|---|---|---|---|
+| **Paper** | "From RAG to Memory" ([arXiv:2502.14802](https://arxiv.org/abs/2502.14802)) | "RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval" ([arXiv:2401.18059](https://arxiv.org/abs/2401.18059)) | "ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning" ([arXiv:2508.10419](https://arxiv.org/abs/2508.10419)) | "A-RAG: An Agentic Framework for Retrieval-Augmented Generation" ([arXiv:2602.03442](https://arxiv.org/abs/2602.03442)) |
+| **GitHub** | [OSU-NLP-Group/HippoRAG](https://github.com/OSU-NLP-Group/HippoRAG) | [parthsarthi03/raptor](https://github.com/parthsarthi03/raptor) | [EternityJune25/ComoRAG](https://github.com/EternityJune25/ComoRAG) | [Ayanami0730/arag](https://github.com/Ayanami0730/arag) |
+| **Index structure** | Knowledge graph (entities + triples + sim-passage edges) | Recursive summary tree (leaves → cluster summaries → … → root) | KG + clustered chunk graph + 3-tier memory pool | Sentence-level dense index (no graph, no tree) |
+| **Indexing primitive** | OpenIE (NER + relation extraction) via LLM | GMM + UMAP clustering, recursive LLM summarization | OpenIE + clustering + memory node initialization | Per-sentence SBERT embedding only |
+| **Retrieval** | **Personalized PageRank** over KG, top-k=200, then linker top-k=5 | Collapsed-tree top-k=10 (leaves + summaries together) | KG retrieval + memory-pool similarity retrieval | **Agent-chosen tool calls**: keyword / semantic / chunk-read (max 15 loops) |
+| **QA reasoning** | **IRCoT** multi-step (max 3 iterations), qa_top_k=5 | **Single-step** generation over retrieved leaves/summaries | **Iterative meta-loop** (max 5): probing query → evidence consolidation → memory update → resolve | **ReAct loop** (max 15 iter): the LLM decides which tool to call next based on prior tool outputs |
+| **Memory state** | Stateless across queries | Stateless across queries | **3-tier memory** (verbatim / semantic / episodic) — stateful within a query | Per-query message-history only (no structured memory) |
+| **Inspiration** | Hippocampus / long-term memory neuroscience | Hierarchical summarization | Cognitive memory consolidation cycles | LLM agents (tool-use / autonomous strategy) |
 
 ---
 
@@ -124,42 +125,44 @@ The shared (apples-to-apples) components:
 
 The system-specific (each method's published default) components:
 
-| Component | HippoRAG 2 | RAPTOR | ComoRAG |
-|---|---|---|---|
-| Indexing strategy | KG via OpenIE | Recursive summarization tree | KG + memory pool |
-| Retrieval | PPR top-k=200, link top-k=5 | Collapsed tree top-k=10 | KG + memory retrieval |
-| QA strategy | IRCoT max 3 steps, qa_top_k=5 | Single-step (max_tokens=3500 ctx) | Meta-loop max 5 iterations |
-| Final-answer formatter | Free-form, model-decided | Free-form, model-decided | Structured output ending in `### Final Answer\n<short>` (extracted post-hoc for fair eval) |
+| Component | HippoRAG 2 | RAPTOR | ComoRAG | A-RAG |
+|---|---|---|---|---|
+| Indexing strategy | KG via OpenIE | Recursive summarization tree | KG + memory pool | Sentence-level dense index only |
+| Retrieval | PPR top-k=200, link top-k=5 | Collapsed tree top-k=10 | KG + memory retrieval | Agent tool-call (keyword / semantic / read), max 15 loops |
+| QA strategy | IRCoT max 3 steps, qa_top_k=5 | Single-step (max_tokens=3500 ctx) | Meta-loop max 5 iterations | ReAct loop max 15 iterations |
+| Final-answer formatter | Free-form, model-decided | Free-form, model-decided | Structured output ending in `### Final Answer\n<short>` (extracted post-hoc for fair eval) | Free-form with chunk citations (see §3.2 caveat 3) |
 
 **Fairness verdict**: ✅ The external pipeline (data + LLM + embedder + metrics) is identical. Each method runs with **its own paper-published default architectural configuration**, which is the correct setup for an architectural comparison — that is exactly what we want to measure.
 
-**Two known caveats** (transparent disclosure):
+**Three known caveats** (transparent disclosure):
 
-1. **Chunk size**: HippoRAG 2 / RAPTOR use 140-token chunks (4,111 passages). ComoRAG's native default is 512 tokens (1,048 passages, re-chunked from the same 10 narratives with `tiktoken cl100k`). We report **both ComoRAG configurations** in §3.2.
-2. **Output format**: ComoRAG's final-answer prompt explicitly demands "the shortest possible answer taken from the text." We extract the line after `### Final Answer` for evaluation. HippoRAG 2 and RAPTOR return free-form short answers directly. This format choice favors EM (exact match) but penalizes recall-weighted metrics like METEOR (see §4.3).
+1. **Chunk size**: HippoRAG 2 / RAPTOR / A-RAG use 140-token chunks (4,111 passages). ComoRAG's native default is 512 tokens (1,048 passages, re-chunked from the same 10 narratives with `tiktoken cl100k`). We report **both ComoRAG configurations** in §3.2.
+2. **ComoRAG output format**: ComoRAG's final-answer prompt explicitly demands "the shortest possible answer taken from the text." We extract the line after `### Final Answer` for evaluation. HippoRAG 2 and RAPTOR return free-form short answers directly. This format choice favors EM (exact match) but penalizes recall-weighted metrics like METEOR (see §4.3).
+3. **A-RAG output format**: A-RAG's default system prompt instructs the agent to *"Cite the specific chunks that support your answer"*. The raw output therefore averages **85 tokens / answer** with trailing `(Chunk ID: …)` citations and "*This is supported by…*" sentences — vs HippoRAG 2 / ComoRAG averaging 3–20 tokens. To make token-level F1 / ROUGE-L comparable, we report **two A-RAG configurations**: (a) **raw** = agent output as-is, (b) **cleaned** = post-hoc strip of chunk citations and "*supported by*" tail sentences (same precedent as ComoRAG's `### Final Answer` extraction). Cleaning is the fairer apples-to-apples number (see §4.7 for analysis).
 
 ### 3.2 Results Table (GPT-4.1-mini, n=293)
 
-| Metric | HippoRAG 2 (140-tok) | RAPTOR (140-tok) | ComoRAG (140-tok) | ComoRAG (512-tok, native) |
-|---|---:|---:|---:|---:|
-| **F1** | **24.72** | 15.64 | 23.09 | 23.45 |
-| **EM** | 6.14 | 0.00 | 8.53 | **8.87** |
-| **ROUGE-L** | **23.54** | 14.16 | 22.37 | 23.01 |
-| **BLEU-1** | 19.85 | 11.00 | 19.77 | **20.42** |
-| BLEU-4 | **1.30** | 0.62 | 0.53 | 0.38 |
-| METEOR | **31.06** | 27.81 | 24.39 | 25.30 |
+| Metric | HippoRAG 2 (140-tok) | RAPTOR (140-tok) | ComoRAG (140-tok) | ComoRAG (512-tok, native) | A-RAG raw (140-tok) | A-RAG cleaned (140-tok) |
+|---|---:|---:|---:|---:|---:|---:|
+| **F1** | **24.72** | 15.64 | 23.09 | 23.45 | 6.61 | 12.07 |
+| **EM** | 6.14 | 0.00 | 8.53 | **8.87** | 0.00 | 0.00 |
+| **ROUGE-L** | **23.54** | 14.16 | 22.37 | 23.01 | 5.84 | 10.44 |
+| **BLEU-1** | 19.85 | 11.00 | 19.77 | **20.42** | 3.71 | 7.84 |
+| BLEU-4 | **1.30** | 0.62 | 0.53 | 0.38 | 0.17 | 0.41 |
+| METEOR | **31.06** | 27.81 | 24.39 | 25.30 | 18.94 | 24.31 |
 
-\# passages: HippoRAG 2 / RAPTOR / ComoRAG-140 = **4,111** chunks; ComoRAG-512 = **1,048** chunks (same 10 narratives, re-chunked).
+\# passages: HippoRAG 2 / RAPTOR / ComoRAG-140 / A-RAG = **4,111** chunks; ComoRAG-512 = **1,048** chunks (same 10 narratives, re-chunked).
 
 **Latency** (wall-clock, single A100, OpenAI API calls included):
 
-| Stage | HippoRAG 2 | RAPTOR | ComoRAG (140-tok) | ComoRAG (512-tok) |
-|---|---:|---:|---:|---:|
-| Indexing | 2,148 s | 2,345 s | 810 s | **637 s** ⭐ |
-| QA (293 queries) | 1,240 s | **419 s** ⭐ | 558 s | 692 s |
-| **Total** | 3,388 s | 2,764 s | **1,368 s** ⭐ | 1,329 s ⭐ |
+| Stage | HippoRAG 2 | RAPTOR | ComoRAG (140-tok) | ComoRAG (512-tok) | A-RAG (140-tok) |
+|---|---:|---:|---:|---:|---:|
+| Indexing | 2,148 s | 2,345 s | 810 s | **637 s** ⭐ | ~120 s (SBERT-only) |
+| QA (293 queries) | 1,240 s | **419 s** ⭐ | 558 s | 692 s | ~720 s (5 workers in parallel) |
+| **Total** | 3,388 s | 2,764 s | **1,368 s** ⭐ | 1,329 s ⭐ | **~840 s** ⭐ (lowest indexing) |
+| Cost (OpenAI) | — | — | — | — | $1.99 (293 q, avg 8.4 ReAct loops/q) |
 
-Both ComoRAG configurations run in ~40% of HippoRAG 2's wall-clock, while staying within 1.3 F1 of HippoRAG 2.
+Both ComoRAG configurations run in ~40% of HippoRAG 2's wall-clock, while staying within 1.3 F1 of HippoRAG 2. A-RAG has the lowest total wall-clock (no graph / no summarization tree to build), but its single-pass ReAct loop without a graph index is weaker on the retrieval side (see §4.7).
 
 ### 3.3 Metric Definitions and Examples
 
@@ -288,10 +291,11 @@ ComoRAG is the most time-efficient of the three at **either chunk size**: 1,329 
 |---|---|---|
 | **Long-narrative QA (this benchmark)** | HippoRAG 2 ≈ ComoRAG-512 | Within 1.3 pp F1; choose by deployment constraint |
 | **Lowest end-to-end latency among quality systems** | **ComoRAG** | ~40% of HippoRAG 2's wall-clock at either chunk size |
-| **Highest exact-match precision (factoid QA)** | **ComoRAG-512** | EM 8.87 (HippoRAG 2: 6.14, RAPTOR: 0.00) |
+| **Highest exact-match precision (factoid QA)** | **ComoRAG-512** | EM 8.87 (HippoRAG 2: 6.14, RAPTOR: 0.00, A-RAG: 0.00) |
 | **Verbose / paraphrastic answers needed downstream** | HippoRAG 2 | Wins METEOR by ~5.8 pp |
+| **Fastest indexing (cold-start corpora)** | **A-RAG** | SBERT-only index (~2 min), no KG/tree pre-build |
 | **Speed-only with quality compromise tolerable** | RAPTOR | Fastest QA (419 s) but F1 falls 7–9 pp |
-| **Avoid for long-narrative tasks** | RAPTOR | Loses every primary metric by 7–9 pp |
+| **Avoid for long-narrative tasks** | RAPTOR, A-RAG | Both lose F1 by 9–13 pp vs HippoRAG 2 / ComoRAG |
 
 ### 4.7 Best for "Long-Context Understanding + Accurate Answer"
 
@@ -299,7 +303,34 @@ Looking specifically at **F1 + ROUGE-L** (the primary metrics for this judgment,
 
 > **HippoRAG 2** narrowly leads (F1 24.72, ROUGE-L 23.54). **ComoRAG (512-tok native)** is effectively tied (F1 23.45, ROUGE-L 23.01; within 0.5–1.3 pp). 140-tok ComoRAG is 0.4–0.6 pp behind 512-tok.
 >
-> **Both clearly outperform RAPTOR.** Either is a strong choice; HippoRAG 2 is the safer pick if every additional point of F1 matters, ComoRAG is the better pick if latency or EM precision matters. Chunk size matters very little for ComoRAG (§4.4).
+> **Both clearly outperform RAPTOR (F1 15.64) and A-RAG (cleaned F1 12.07).** Either is a strong choice; HippoRAG 2 is the safer pick if every additional point of F1 matters, ComoRAG is the better pick if latency or EM precision matters. Chunk size matters very little for ComoRAG (§4.4).
+
+### 4.8 A-RAG — Why the Agentic ReAct Loop Lags on Long-Narrative QA
+
+A-RAG's published design uses three retrieval tools (`keyword_search`, `semantic_search`, `read_chunk`) and lets the LLM autonomously decide what to call next, in a ReAct loop (max 15 iterations). On this benchmark the agent loop functions correctly:
+
+| Diagnostic | Value | Healthy? |
+|---|---|---|
+| Avg loops per query | 8.4 | ✅ Uses the budget meaningfully (median 7, std ~4) |
+| Tool diversity (per query) | 98% of queries call ≥ 2 distinct tools | ✅ |
+| Tool-call distribution | `keyword_search` 48% / `read_chunk` 37% / `semantic_search` 15% | ✅ All three actively used |
+| Max-loop hits | 16% of queries reach the 15-loop ceiling | ⚠ Indicates retrieval failure on a non-trivial slice |
+| Avg chunks read | 3.7 unique chunks per query | — |
+| Avg retrieved tokens | 1,179 tokens / query | — |
+| Cost | $1.99 total ($0.0068 / query) | — |
+
+**Where it loses ground** (cleaned F1 12.07 vs HippoRAG 2's 24.72 — a 12.6 pp gap):
+
+1. **No graph / no tree index.** A-RAG retrieves over a flat sentence-level dense index. NarrativeQA's "who-did-X-with-whom" multi-hop questions benefit strongly from cross-passage edges (HippoRAG 2's KG-PPR, ComoRAG's memory pool). When the answer to *"Who does Mary cross the country with?"* requires unifying mentions across three passages (Norm, Elizabeth, Howard), A-RAG's ReAct loop finds **one** name and stops; the graph-based systems surface all three.
+2. **Keyword-search exhaustion on multi-character narratives.** 16% of queries reach the 15-loop ceiling because the agent retries semantically similar keywords (e.g., `Mary travel`, `Mary cross country`, `Mary journey`, `Mary cross`) without escalating to `semantic_search` until the budget is almost spent. The cognitive-memory loop in ComoRAG and the IRCoT cycle in HippoRAG 2 do not have this thrash because they decompose at the *evidence* level, not at the *keyword surface* level.
+3. **Verbose output by design.** A-RAG's default prompt asks the agent to cite supporting chunks; the raw answers therefore average **85 tokens** and the `(Chunk ID: …)` tails crush token-level precision. The "cleaned" column post-strips these (+ ~5 F1) but the answer still averages 37 tokens — still 2–10× the length of HippoRAG 2 / ComoRAG outputs, which is why even cleaned F1 trails. This is a **prompt-style** artifact, not a retrieval artifact.
+
+**Where it shines.** Two genuine wins:
+
+- **Indexing time** (~120 s, SBERT-only) is 5–18× faster than the graph- or tree-based methods, because there is nothing to build beyond sentence embeddings.
+- **METEOR cleaned = 24.31** — within 0.1 pp of ComoRAG-140 and ahead of ComoRAG-512 by ~1 pp on the recall-weighted axis. The verbose A-RAG output, even after cleaning, still has high token recall against the 2 reference answers; this is the one metric where verbosity helps.
+
+**Net verdict.** A-RAG's agent loop is internally healthy (3-tool active use + 8.4-loop median + sensible tool sequencing). The gap is **architectural** — sentence-flat indexing + ReAct loop is a weaker fit for long-narrative multi-hop QA than KG-PPR / tree / memory-pool designs. A-RAG's home turf is heterogeneous-tool open-domain QA where the right tool may be a calculator, code interpreter, or web search — not a corpus where every answer must be stitched from cross-passage entity coreferences.
 
 ---
 
@@ -313,6 +344,7 @@ Looking specifically at **F1 + ROUGE-L** (the primary metrics for this judgment,
 | **HippoRAG 1** | [arXiv:2405.14831](https://arxiv.org/abs/2405.14831) | NeurIPS 2024 |
 | **RAPTOR** | [arXiv:2401.18059](https://arxiv.org/abs/2401.18059) | ICLR 2024 |
 | **ComoRAG** | [arXiv:2508.10419](https://arxiv.org/abs/2508.10419) | arXiv preprint (2025) |
+| **A-RAG** | [arXiv:2602.03442](https://arxiv.org/abs/2602.03442) | arXiv preprint (2026) |
 | **NarrativeQA** | [arXiv:1712.07040](https://arxiv.org/abs/1712.07040) | TACL 2018 |
 
 ### Code Repositories
@@ -322,6 +354,7 @@ Looking specifically at **F1 + ROUGE-L** (the primary metrics for this judgment,
 | HippoRAG (official) | https://github.com/OSU-NLP-Group/HippoRAG |
 | RAPTOR (official) | https://github.com/parthsarthi03/raptor |
 | ComoRAG (official) | https://github.com/EternityJune25/ComoRAG |
+| A-RAG (official) | https://github.com/Ayanami0730/arag |
 | NarrativeQA (DeepMind, original) | https://github.com/google-deepmind/narrativeqa |
 
 ### Datasets
@@ -343,6 +376,7 @@ Looking specifically at **F1 + ROUGE-L** (the primary metrics for this judgment,
 | Item | Path |
 |---|---|
 | Per-experiment runner scripts | `experiments/exp-001-hipporag2-narrativeqa/`, `exp-002-raptor-narrativeqa/`, `exp-003-hipporag2-gpt/`, `exp-004-raptor-gpt/`, `exp-005-comorag-narrativeqa/` |
+| A-RAG runner | `/content/drive/MyDrive/arag/scripts/batch_runner.py` (config `configs/narrativeqa.yaml`), eval `scripts/eval_narrativeqa.py`, cleaner `scripts/clean_answer.py` |
 | Shared metrics implementation | `experiments/eval_metrics.py` |
 | Tracker | `experiments/TRACKER.md` |
 | Methodology doc | `reports/METHODOLOGY.md` |

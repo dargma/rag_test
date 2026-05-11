@@ -1,0 +1,22 @@
+diff --git a/src/comorag/ComoRAG.py b/src/comorag/ComoRAG.py
+index 3b8e6e6..433e7ec 100644
+--- a/src/comorag/ComoRAG.py
++++ b/src/comorag/ComoRAG.py
+@@ -27,7 +27,8 @@ from .llm import _get_llm_class, BaseLLM
+ from .embedding_model import _get_embedding_model_class, BaseEmbeddingModel
+ from .embedding_store import EmbeddingStore
+ from .information_extraction import OpenIE
+-from .information_extraction.openie_vllm_offline import VLLMOfflineOpenIE
++# vllm offline OpenIE — lazy import (only when needed)
++# from .information_extraction.openie_vllm_offline import VLLMOfflineOpenIE
+ from .prompts.linking import get_query_instruction
+ from .prompts.prompt_template_manager import PromptTemplateManager
+ from .rerank import DSPyFilter
+@@ -82,6 +83,7 @@ class ComoRAG:
+         if self.global_config.openie_mode == 'online':
+             self.openie = OpenIE(llm_model=self.llm_model)
+         elif self.global_config.openie_mode == 'offline':
++            from .information_extraction.openie_vllm_offline import VLLMOfflineOpenIE  # lazy
+             self.openie = VLLMOfflineOpenIE(self.global_config)
+ 
+         self.graph = self.initialize_graph()

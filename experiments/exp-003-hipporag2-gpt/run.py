@@ -7,8 +7,12 @@ import sys
 import json
 import time
 import logging
+from pathlib import Path
 
-sys.path.insert(0, '/content/drive/MyDrive/HippoRAG')
+_HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(_HERE.parent.parent))      # rag_test root → utils.paths
+from utils.paths import get_external_path         # noqa: E402
+sys.path.insert(0, get_external_path("hipporag"))
 
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -21,8 +25,9 @@ logging.basicConfig(level=logging.INFO)
 DATASET_NAME = "narrativeqa_dev_10_doc"
 LLM_NAME = "gpt-4.1-mini"
 EMBEDDING_NAME = "Transformers/sentence-transformers/multi-qa-mpnet-base-cos-v1"
-SAVE_DIR = "/content/drive/MyDrive/HippoRAG/experiments/exp-003-hipporag2-gpt/results"
-DATA_DIR = "/content/drive/MyDrive/HippoRAG/reproduce/dataset"
+from utils.paths import get_data_path                   # noqa: E402
+SAVE_DIR = str(_HERE / "results")          # local to this experiment
+DATA_DIR = get_data_path()                  # rag_test/reproduce/dataset
 
 def main():
     corpus_path = os.path.join(DATA_DIR, f"{DATASET_NAME}_corpus.json")
@@ -99,7 +104,7 @@ def main():
     with open(results_file, 'w') as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
-    sys.path.insert(0, '/content/drive/MyDrive/HippoRAG/experiments')
+    sys.path.insert(0, str(_HERE.parent))   # rag_test/experiments  (eval_metrics.py)
     from eval_metrics import evaluate_all
     metrics = evaluate_all(
         [r["prediction"] for r in results],

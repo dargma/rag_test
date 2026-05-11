@@ -1,0 +1,31 @@
+diff --git a/src/comorag/embedding_model/__init__.py b/src/comorag/embedding_model/__init__.py
+index 9629c2c..a20d8a8 100644
+--- a/src/comorag/embedding_model/__init__.py
++++ b/src/comorag/embedding_model/__init__.py
+@@ -1,17 +1,21 @@
+-
+ from .base import EmbeddingConfig, BaseEmbeddingModel
+ from .BGEEmbedding import BGEEmbeddingModel
+ from .OpenAI import OpenAIEmbeddingModel
++from .SBERTEmbedding import SBERTEmbeddingModel
+ from ..utils.logging_utils import get_logger
+ 
+ logger = get_logger(__name__)
+ 
+ 
+ def _get_embedding_model_class(embedding_model_name: str = "None"):
+-    if "bge-" in embedding_model_name.lower():
++    name_l = embedding_model_name.lower()
++    if "bge-" in name_l:
+         return BGEEmbeddingModel
+     elif "text-embedding-3-small" in embedding_model_name:
+         return OpenAIEmbeddingModel
++    elif any(k in name_l for k in ["mpnet", "minilm", "sentence-transformers", "multi-qa", "all-"]):
++        logger.info(f"Using SBERTEmbeddingModel for: {embedding_model_name}")
++        return SBERTEmbeddingModel
+     else:
+-        logger.info(f"Unknown embedding model name: {embedding_model_name}, using BGEEmbeddingModel as default")
+-        return 
+\ No newline at end of file
++        logger.info(f"Unknown embedding model: {embedding_model_name}, using SBERTEmbeddingModel as default")
++        return SBERTEmbeddingModel

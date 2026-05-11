@@ -7,8 +7,12 @@ import sys
 import json
 import time
 import logging
+from pathlib import Path
 
-sys.path.insert(0, '/content/drive/MyDrive/raptor')
+_HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(_HERE.parent.parent))      # rag_test root → utils.paths
+from utils.paths import get_external_path         # noqa: E402
+sys.path.insert(0, get_external_path("raptor"))
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
@@ -22,9 +26,10 @@ from raptor.QAModels import BaseQAModel
 logging.basicConfig(level=logging.INFO)
 
 LLM_MODEL = "gpt-4.1-mini"
-DATA_DIR = "/content/drive/MyDrive/HippoRAG/reproduce/dataset"
+from utils.paths import get_data_path  # noqa: E402
+DATA_DIR = get_data_path()              # rag_test/reproduce/dataset
 DATASET_NAME = "narrativeqa_dev_10_doc"
-SAVE_DIR = "/content/drive/MyDrive/HippoRAG/experiments/exp-004-raptor-gpt/results"
+SAVE_DIR = str(_HERE / "results")       # local to this experiment
 
 
 class GPTSummarizationModel(BaseSummarizationModel):
@@ -155,7 +160,7 @@ def main():
     with open(results_file, 'w') as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
-    sys.path.insert(0, '/content/drive/MyDrive/HippoRAG/experiments')
+    sys.path.insert(0, str(_HERE.parent))   # rag_test/experiments  (eval_metrics.py)
     from eval_metrics import evaluate_all
     metrics = evaluate_all(
         [r["prediction"] for r in results],

@@ -1,0 +1,17 @@
+# rag_test — external repo path overrides
+#
+# Copy this file to `paths.yaml` (same directory) and edit if your 4 external
+# RAG-system clones do NOT live as siblings of rag_test/.
+#
+# Resolution priority:
+#   1) environment variable HIPPORAG_PATH / RAPTOR_PATH / COMORAG_PATH / ARAG_PATH
+#   2) values in `paths.yaml` (this file's copy)
+#   3) sibling default — `../HippoRAG`, `../raptor`, `../ComoRAG`, `../arag`
+#
+# Values can be absolute (e.g. /home/me/HippoRAG) or relative to rag_test/.
+
+external:
+  hipporag: "../HippoRAG"   # OSU-NLP-Group/HippoRAG
+  raptor:   "../raptor"     # parthsarthi03/raptor
+  comorag:  "../ComoRAG"    # EternityJune25/ComoRAG  (apply patches/comorag/* after clone)
+  arag:     "../arag"       # Ayanami0730/arag

@@ -27,8 +27,12 @@ if os.path.exists(key_file):
 
 assert os.environ.get("OPENAI_API_KEY"), "OPENAI_API_KEY not set"
 
-# Add ComoRAG src to path
-sys.path.insert(0, "/content/drive/MyDrive/rag_test/ComoRAG")
+# Add ComoRAG src to path (sibling default — see EXTERNAL_REPOS.md / utils/paths.py)
+from pathlib import Path
+_HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(_HERE.parent.parent))     # rag_test root → utils.paths
+from utils.paths import get_external_path        # noqa: E402
+sys.path.insert(0, get_external_path("comorag"))
 
 from src.comorag.ComoRAG import ComoRAG
 from src.comorag.utils.config_utils import BaseConfig
@@ -40,7 +44,7 @@ logging.basicConfig(level=logging.INFO)
 DATASET_DIR = "/content/local_fast/rag_eval/data/narrativeqa_dev_10_doc"
 EMBEDDER_PATH = "/content/local_fast/rag_eval/embedder/multi-qa-mpnet-base-cos-v1"
 WORKING_DIR = "/content/local_fast/rag_eval/outputs/comorag_narrativeqa"
-RESULTS_DIR = "/content/drive/MyDrive/rag_test/experiments/exp-005-comorag-narrativeqa/results"
+RESULTS_DIR = str(_HERE / "results")     # local to this experiment
 
 # Allow smoke test (subsample queries)
 SMOKE_TEST = os.environ.get("SMOKE_TEST", "0") == "1"
@@ -145,7 +149,7 @@ def main():
     print(f"[save] {results_file}")
 
     # === Eval with HippoRAG2's eval_metrics (FAIR) ===
-    sys.path.insert(0, "/content/drive/MyDrive/rag_test/experiments")
+    sys.path.insert(0, str(_HERE.parent))   # rag_test/experiments
     from eval_metrics import evaluate_all
     metrics = evaluate_all(
         [r["prediction"] for r in results],

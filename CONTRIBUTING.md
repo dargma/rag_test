@@ -1,49 +1,51 @@
-# Contributing to HippoRAG
+# Contributing to rag_test
 
-Thank you for your interest in contributing to HippoRAG!
-We are happy to welcome contributions from the community to help us improve our project.
+`rag_test/` is a small orchestrator that compares four RAG systems on a fixed
+NarrativeQA split. Contributions that fit one of the categories below are
+welcome.
 
-## How to Contribute
+## Scope
 
-1. Fork the repository and clone it to your local machine.
-2. Create a new branch for your contribution: `git checkout -b my-contribution`.
-3. Make your changes and ensure that the code passes our test scripts. More information can be found in the `Testing` section of our `README.md`. 
-4. Commit your changes: `git commit -m "Add my contribution"`.
-6. Push your changes to your forked repository: `git push origin my-contribution`.
-7. Open a pull request to the main repository.
+| In scope | Out of scope |
+|---|---|
+| Wrapper improvements for `exp-003` … `exp-006` | Architectural changes to upstream RAG repos (submit upstream) |
+| Adding a 5th system as `exp-007-<system>/` | Forking upstream code into this repo (this repo is an orchestrator, not a vendor) |
+| New patches for an upstream system → `patches/<system>/` | Patches that aren't needed for fair-comparison reproduction |
+| Adding a new benchmark split → `reproduce/dataset/` + wrapper changes | Closed-source data or anything that breaks reproducibility |
+| Documentation fixes (REPRODUCE.md, README.md, EXTERNAL_REPOS.md) | — |
+| Metric additions to `experiments/eval_metrics.py` | Re-scoring published numbers using a different scorer (changes the comparison axis) |
 
-## Before you start, file an issue
+## Workflow
 
-Please follow this simple rule to help us eliminate any unnecessary wasted effort & frustration, and ensure an efficient and effective use of everyone's time - yours, ours, and other community members':
+1. Open an issue first if you're proposing a non-trivial change.
+2. Fork → branch → PR. Keep PRs small and single-purpose.
+3. Run `scripts/verify_results.py --tolerance 0.5` before submitting — your
+   change must not regress any system's metrics beyond ±0.5 F1.
+4. If you change a metric or evaluator behaviour, update `REPRODUCE.md` §2
+   reference numbers + `scripts/verify_results.py` REFERENCE dict in the
+   same PR.
+5. If you patch an upstream system, document the patch in
+   `EXTERNAL_REPOS.md` and add a `.patch` file under `patches/<system>/`.
 
-> 👉 If you have a question, think you've discovered an issue, would like to propose a new feature, etc., then find/file an issue **BEFORE** starting work to fix/implement it.
+## Local development
 
-### Search existing issues first
+```bash
+bash scripts/setup_env.sh           # one-shot install
+export OPENAI_API_KEY=sk-...
+bash scripts/run_all.sh             # rerun everything (~2.5 h on one A100)
+python scripts/verify_results.py    # PR gate
+```
 
-Before filing a new issue, search existing open and closed issues first: This project is moving fast! It is likely someone else has found the problem you're seeing, and someone may be working on or have already contributed a fix!
+For partial reruns:
+```bash
+WHICH="hipporag2 raptor" bash scripts/run_all.sh
+python scripts/verify_results.py --which hipporag2 raptor
+```
 
-If no existing item describes your issue/feature, great - please file a new issue:
+## Bug reports
 
-### File a new Issue
-
-- Don't know whether you're reporting an issue or requesting a feature? File an issue
-- Have a question that you don't see answered in docs, videos, etc.? File an issue
-- Want to know if we're planning on building a particular feature? File an issue
-- Got a great idea for a new feature? File an issue/request/idea
-- Don't understand how to do something? File an issue
-- Found an existing issue that describes yours? Great - upvote and add additional commentary / info / repro-steps / etc.
- 
-Provide as much detail as possible to help us understand and address the problem.
-
----
-
-### Credits
-
-This contributing guide was adapted from the [GraphRAG](https://github.com/microsoft/graphrag) project. Many thanks to the team for providing a useful starting point!
-
----
-
-## Thank you
-
-We appreciate your contributions to HippoRAG!
-
+Include in the report:
+- `python --version` and `pip freeze | grep -E 'openai|sentence|tiktoken'`
+- Output of `python utils/paths.py` (so we know which siblings resolved)
+- Output of `python scripts/verify_results.py` showing which system / metric drifted
+- The commit hash of each upstream repo (e.g. `git -C ../HippoRAG rev-parse HEAD`)
